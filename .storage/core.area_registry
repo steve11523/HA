@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "name": "Living Room",
+        "id": "living_room",
+        "picture": "/api/image/serve/55aeaec23b1dc97bdc1323cbf4c40249/512x512"
+      },
+      {
+        "aliases": [],
+        "name": "Kitchen",
+        "id": "kitchen",
+        "picture": "/api/image/serve/4ab0b38b5c6886fed1833fb51d8e2995/512x512"
+      },
+      {
+        "aliases": [],
+        "name": "Bedroom",
+        "id": "bedroom",
+        "picture": "/api/image/serve/94c9a0bfdb862bca55cb1cf6639a4aa1/512x512"
+      },
+      {
+        "aliases": [],
+        "name": "Bathroom",
+        "id": "bathroom",
+        "picture": "/api/image/serve/c79b50d90cec63ce5b8bec56ba2e65f7/512x512"
+      },
+      {
+        "aliases": [
+          "office"
+        ],
+        "name": "Closet",
+        "id": "closet",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Workshop",
+        "id": "workshop",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Outside",
+        "id": "outside",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Hallway",
+        "id": "hallway",
+        "picture": "/api/image/serve/0b1725ba51a11179011c2174074159cd/512x512"
+      },
+      {
+        "aliases": [],
+        "name": "Cameras",
+        "id": "cameras",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Camera Controls",
+        "id": "camera_controls",
+        "picture": "/api/image/serve/f5704e3d4d30002882740456658a338b/512x512"
+      },
+      {
+        "aliases": [],
+        "name": "Switches",
+        "id": "switches",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "surveillance ",
+        "id": "surveillance",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Routers",
+        "id": "routers",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Media",
+        "id": "media",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Sirens",
+        "id": "sirens",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Digital Switches",
+        "id": "digital_switches",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Phones",
+        "id": "phones",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "Mission Critical",
+        "id": "mission_critical",
+        "picture": null
+      }
+    ]
+  }
+}

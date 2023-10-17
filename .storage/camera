@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "camera",
+  "data": {
+    "camera.172_16_33_240": {
+      "preload_stream": false
+    },
+    "camera.backyard": {
+      "preload_stream": false
+    },
+    "camera.frontdoor": {
+      "preload_stream": false
+    },
+    "camera.frontyard": {
+      "preload_stream": false
+    },
+    "camera.backdoor": {
+      "preload_stream": false
+    },
+    "camera.walkway": {
+      "preload_stream": false
+    }
+  }
+}

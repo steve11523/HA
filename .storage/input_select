@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "minor_version": 2,
+  "key": "input_select",
+  "data": {
+    "items": [
+      {
+        "id": "default_dashboard",
+        "name": "Default Dashboard",
+        "options": [
+          "lovelace",
+          "dashboard-mushroom",
+          "dwains-dashboard",
+          "ui-lovelace-minimalist",
+          "adaptive-dash",
+          "dashboard-development",
+          "refresh"
+        ],
+        "initial": "lovelace"
+      }
+    ]
+  }
+}

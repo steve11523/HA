@@ -1,0 +1,3574 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "35f72c55c7934cdac1c6f3995b193490",
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name_by_user": null,
+        "name": "Home Assistant Core",
+        "sw_version": "2023.10.3",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d880f8a4bec2efc16a75c026bcc15e31",
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name_by_user": null,
+        "name": "Home Assistant Supervisor",
+        "sw_version": "2023.10.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d55ab1d89aedb820eeb6475fa2d6ca21",
+        "identifiers": [
+          [
+            "hassio",
+            "host"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Host",
+        "name_by_user": null,
+        "name": "Home Assistant Host",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "9b5da5d5bf0459ba81335ba7e3b7e5ea"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "47026279f12963d0fdb1e4c0cfcfcbed",
+        "identifiers": [
+          [
+            "sun",
+            "9b5da5d5bf0459ba81335ba7e3b7e5ea"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "a3b2ba7449dbaac2564213a23e193135",
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "66117de9fcfdaf0287dd77a33f6fddfa",
+        "identifiers": [
+          [
+            "cast",
+            "4cb66dce89ec2b4d9ecd3be8ebff94b2"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "4 Living Room speaker",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "closet",
+        "config_entries": [
+          "30ee63483c63b5902fe92746e6b3fce1",
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "17a917a9af0a55bd013f1dae49a02091",
+        "identifiers": [
+          [
+            "cast",
+            "081ac6259767374bce50a99628b76161"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "Closet Office speaker",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "bathroom",
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057",
+          "256bac9c7e0188573dbf648f162f0eca"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "9f91836ea23aaebbb4f21e1b531019f0",
+        "identifiers": [
+          [
+            "cast",
+            "9376cf0d6beec25ce9be11d966f95d10"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "Bathroom speaker",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7841fba9eb667d13c90f58861d631981",
+        "identifiers": [
+          [
+            "cast",
+            "025748bdc36ad25e6991f0f8f9e08c51"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Hub",
+        "name_by_user": null,
+        "name": "Kitchen display",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057",
+          "18aa2b3ed6ba6ec688fbcbd7f688ee8f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5b7b9da110d8f657f3f8a223f39640ed",
+        "identifiers": [
+          [
+            "cast",
+            "6b0e424d8280a4ffdf9626ba785185b1"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "Rhyleighs room speaker",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057",
+          "858db195c73b5bb9fe184ffc8068c7eb"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "1e0524edaa2964323012dcc7c0304331",
+        "identifiers": [
+          [
+            "cast",
+            "60c6a26d5773cb755a4359c726efdaa6"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "4 - Frankenstein",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c1393ca7ac93bd1b4f962512fb590819",
+        "identifiers": [
+          [
+            "cast",
+            "364348c50af91d7b998bdca698c9c901"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast",
+        "name_by_user": null,
+        "name": "Camera Monitor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "be7736641177fa35edeb3494fc6d1528",
+        "identifiers": [
+          [
+            "cast",
+            "c20c4c8d43e73e66156ba5a57686ec4a"
+          ]
+        ],
+        "manufacturer": "Funai",
+        "model": "PHILIPS 4k TV",
+        "name_by_user": null,
+        "name": "main",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "4a20203bbe3934db71879d89f8804946",
+        "identifiers": [
+          [
+            "cast",
+            "a4224c258fb94d6a91961099ac10bae0"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Cast Group",
+        "name_by_user": null,
+        "name": "home",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "routers",
+        "config_entries": [
+          "5b44d9c90250d73f76827ffaa3712296"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "upnp",
+            "uuid:9bd37309-bfcf-4188-9a67-0849af6e5c0c"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5210c04724d48afd60f1908a1198ef80",
+        "identifiers": [
+          [
+            "upnp_host",
+            "172.16.33.254"
+          ],
+          [
+            "upnp",
+            "uuid:bbcbbe93-c746-4775-84fc-8a09dd2e5434::urn:schemas-upnp-org:device:InternetGatewayDevice:2"
+          ],
+          [
+            "upnp_serial_number",
+            "00000000"
+          ]
+        ],
+        "manufacturer": "Google",
+        "model": "OnHub",
+        "name_by_user": null,
+        "name": "OnHub",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "fa35c032dd2fec6182ce693c3dc854f9"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "1c:53:f9:44:0b:36"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "607e2a924d5624f6f41e5c8cdb01fcd9",
+        "identifiers": [
+          [
+            "androidtv_remote",
+            "1c:53:f9:44:0b:36"
+          ]
+        ],
+        "manufacturer": "Google",
+        "model": "Chromecast",
+        "name_by_user": null,
+        "name": "Camera Monitor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "cce3735186f0138a5036e0dcec8e627f"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "78:80:38:e8:3d:64"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ed528d06423ead8519370cdf8c51344e",
+        "identifiers": [
+          [
+            "androidtv_remote",
+            "78:80:38:e8:3d:64"
+          ]
+        ],
+        "manufacturer": "Funai",
+        "model": "PHILIPS 4k TV",
+        "name_by_user": null,
+        "name": "main",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "phones",
+        "config_entries": [
+          "12bc2f6b7e824531728e6ce93d093c24"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "8a5667eb56abceb77ccd1bad9ceba8d3",
+        "identifiers": [
+          [
+            "mobile_app",
+            "5d67e8122de16e01"
+          ]
+        ],
+        "manufacturer": "samsung",
+        "model": "SM-S911U",
+        "name_by_user": null,
+        "name": "Steve's S23 ",
+        "sw_version": "33",
+        "via_device_id": null
+      },
+      {
+        "area_id": "outside",
+        "config_entries": [
+          "606cdfa407120456bd8257b581090d22",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "8cae27ca4ec10056af1750a68291aada",
+        "identifiers": [
+          [
+            "tuya",
+            "eb9b0eb67dbdf4e3acicdo"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (e8dhekwuvrdogter)",
+        "name_by_user": null,
+        "name": "Front Light",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "hallway",
+        "config_entries": [
+          "3b9d0c3d78d9bad0f48a4db1b02fd5e5",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "aca2047dc9d2a0fe1688a5f8ff9fab2e",
+        "identifiers": [
+          [
+            "tuya",
+            "eb83db30f2b163faf04upi"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "60W Tune + Color (bgpiwsoo0ilua22i)",
+        "name_by_user": null,
+        "name": "Hallway Light",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "hallway",
+        "config_entries": [
+          "299f7cd2f71074fc80547b8b64e53a55",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ed4ac7e308203f84a0103ab097168658",
+        "identifiers": [
+          [
+            "tuya",
+            "ebbac0ccfea4757655awaz"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "60W Tune + Color (bgpiwsoo0ilua22i)",
+        "name_by_user": null,
+        "name": "Entryway Light",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "workshop",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "d2846dd5d7863e95b1d3ada655c85e12"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "4f254d4e1c5a90cc29fcb0089f04401f",
+        "identifiers": [
+          [
+            "tuya",
+            "ebbf077a9442a4b8bekhcf"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "60W Tune + Color (bgpiwsoo0ilua22i)",
+        "name_by_user": null,
+        "name": "Workshop Entrance 2",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "26acd08d9794f0f2008152d042d44fab"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "7024bab7b14063c478bcef8e587df8da",
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name_by_user": null,
+        "name": "HACS",
+        "sw_version": "1.33.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "sirens",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "52311b51eb55eee3b06d799f2539ec25",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F2750F05E"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WYZE_CAKP2JFUS",
+        "name_by_user": null,
+        "name": "Front Door ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "sirens",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "76c9db787a4fc259bb60eadfcd152ad1",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F2750F024"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WYZE_CAKP2JFUS",
+        "name_by_user": null,
+        "name": "Front yard ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "sirens",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "fa39ab5a4273f24ec6e5478f3b27c697",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F272AC934"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WYZE_CAKP2JFUS",
+        "name_by_user": null,
+        "name": "Walkway overhead ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "sirens",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "3202d9938e94153097a57cdc3b802244",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F2723D991"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WYZE_CAKP2JFUS",
+        "name_by_user": null,
+        "name": "Backyard Camera",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "d44c83e1b36eb094370018bbf6693352",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "wyzeapi.wyze.notification.toggle"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WyzeNotificationToggle",
+        "name_by_user": null,
+        "name": "Wyze Notifications",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "391dd21a7943b76046829ba23d6f535f",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFF396"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "9c87d7465dfe13766cc5720fb11a1e9c",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEBA5"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "camera_controls",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "01aa94da94f40a36affa6ef1e7f2c56c",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EF09B37-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "front door camera ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "3e9baac1b11b69444b333f8b7668d5b8",
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "8323872f69aa16cd87a8a8b6ddae665c",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEBA5-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "Sound Lights ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a497deb229773f58089e24c7bd1f2e0c",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B26EDBDD"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "outside",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0f296644a3fbc670950a8e3044757fb1",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEEEA-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": ".................................................................................................................................................................................",
+        "name": "illumination power ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "1a989508fb2cfe54a530824f2fe86eea",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEEEA"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "9d0130fe802019224725076ca5c8c916",
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "6712f3ac5ff94668126c04486106a8ea",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEBA5-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "Blue Lights ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "764abff6a8af6f6d3071df5895e19eba",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EF09B37"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "22d4398ad70dd7ebeb87a9068d3a8708",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEEF1-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "DVD player power ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "efeca6ffae61bd58ed8d4ee25c28c5e8",
+          "d02ebe101b9308cf127822decb31b7ec",
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "661322c28c4367e03edafefeecac9c26",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B26EE356-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": "Mommas Light",
+        "name": "Mommas light  1",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "d01116370340de8d7a77ca4dda07d79f",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEF3B-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": "Empty by fan",
+        "name": "Empty by fan",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "camera_controls",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "af84a3a2f7be181c4bec8fb7e2485d9c",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27FF520-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": "Empty Front Yard",
+        "name": "Front yard cam 1 power ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f46c655adf57a67a8346ceb270042d60",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEEF1"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "9e044ba8c60570363fb58beafca33fa3",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEF3B"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "camera_controls",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "adbf611eb17daabf6db4353dd4c5b991",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27FF520-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": "Front Yard Cam Power",
+        "name": "Front yard cam 2 power ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "52c76af2fc7ebcc6fb74631165181ecd",
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b25a56d120d71cd76020dd3e322a873b",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEF3B-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": "Air Conditioner",
+        "name": "Air Conditioner ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "35942979ebd87f8493b46ffeefb1db12",
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c04b2529243995153c2e3f441b4ccc6d",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFF396-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "ceiling fan",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "d8baab85224e2364d5e0fd6ee356ac59",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEEF1-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "Playstation Power ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "camera_controls",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e6e0f22d804910d76bc3077863880724",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EF09B37-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "power enlight",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2e9aa7507160ba9da9547cc330f80126",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B27FF520"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "289855c0646720592af0ff9864a4ea07",
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f314b9aff894ea8cf7d1cf02f87358a5",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8E830565"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPP1",
+        "name_by_user": "Box Fan",
+        "name": "Box fan",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "3d1964e6e3965f6c487283d1e442f5e4",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B26EE356-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "kitchen disp power",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "018563234b27391a8b7e3866c2433021",
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b85c6bc3705506319689cf758992db35",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFF396-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "Laurie's light",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "switches",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2bf1a660696587296c59edd0cbe7074b",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B26EE356"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO",
+        "name_by_user": null,
+        "name": "Wyze Plug Outdoor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "camera_controls",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "090985d776d45d13a07281c4a6de1ddd",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8EEFEEEA-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "Backyard cam power",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "mission_critical",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "9f42c128d20d53f17a62a59b6a76bbb0",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B26EDBDD-0001"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "Computer Power ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5de8f4831514860aaa9c192842302f6b",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "7C78B26EDBDD-0002"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPPO-SUB",
+        "name_by_user": null,
+        "name": "HP Monitor Power ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "bathroom",
+        "config_entries": [
+          "f377b6782d047c0e40095997d207370b",
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "fafda0b829227f80289a69d4ae006e6d",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8E8AB68F"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPP1",
+        "name_by_user": null,
+        "name": "Bathroom Fan ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "closet",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "40da077d0ead568b3439c5141217d402",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8E87DC33"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPP1",
+        "name_by_user": null,
+        "name": "Closet heat",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_samba",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "9f9b986cbbe2f211838a3226ba5d66eb",
+        "identifiers": [
+          [
+            "hassio",
+            "core_samba"
+          ]
+        ],
+        "manufacturer": "core",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Samba share",
+        "sw_version": "10.0.2",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f782b2211ee0a9abff2009850cec460e"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "78aab90a37544777af738c3f2ca24650",
+        "identifiers": [
+          [
+            "nws",
+            "43.013244739925234_-87.93936878442766"
+          ]
+        ],
+        "manufacturer": "National Weather Service",
+        "model": null,
+        "name_by_user": null,
+        "name": "NWS: 43.013244739925234, -87.93936878442766",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "a636fe48dc287b85d08126a28f6c7f25"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "96afe65b8781fbe4a7ba5246d7b32ebe",
+        "identifiers": [
+          [
+            "nws_alerts",
+            "a636fe48dc287b85d08126a28f6c7f25"
+          ]
+        ],
+        "manufacturer": "NWS",
+        "model": null,
+        "name_by_user": null,
+        "name": "NWS Alerts",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "workshop",
+        "config_entries": [
+          "d4b9892da6b8714b0d363171a94dae09",
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "934f0cfbee9d73986a070e6cf52c9faf",
+        "identifiers": [
+          [
+            "cast",
+            "1bfeace1af305e9cca76ea334c69b4e3"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "workshop speaker",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "phones",
+        "config_entries": [
+          "7d11d38bcc09de74dd8fd5ccbb4b034a"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "19c16dab46a245124d6bb0559716de64",
+        "identifiers": [
+          [
+            "mobile_app",
+            "c102d3e02e7202c0"
+          ]
+        ],
+        "manufacturer": "motorola",
+        "model": "moto g(7) supra",
+        "name_by_user": null,
+        "name": "moto g(7) supra",
+        "sw_version": "29",
+        "via_device_id": null
+      },
+      {
+        "area_id": "phones",
+        "config_entries": [
+          "2274c3778c913b085c8fce25919dbec7"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "34da838ebef7a096a42f16210bd455e8",
+        "identifiers": [
+          [
+            "mobile_app",
+            "94fc68601199a9a1"
+          ]
+        ],
+        "manufacturer": "samsung",
+        "model": "SM-S911U",
+        "name_by_user": null,
+        "name": "Laurie's S23",
+        "sw_version": "33",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ee0f3f4e8f4e44b58338c0cb0fb73f12"
+        ],
+        "configuration_url": "https://forecast.solar",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "3a169cb8ff93009a4e07ae3a6283edf1",
+        "identifiers": [
+          [
+            "forecast_solar",
+            "ee0f3f4e8f4e44b58338c0cb0fb73f12"
+          ]
+        ],
+        "manufacturer": "Forecast.Solar",
+        "model": "public",
+        "name_by_user": null,
+        "name": "Solar production forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "65cbfe4d7764335300af10f9d736ff0a"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "b763056fd0808c63c45b5e46dba0efbe",
+        "identifiers": [
+          [
+            "moon",
+            "65cbfe4d7764335300af10f9d736ff0a"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Moon",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e781645e200f4cf18b8f04394624dfec"
+        ],
+        "configuration_url": "https://www.speedtest.net/",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "efd588d2aad9870a331940b234798e03",
+        "identifiers": [
+          [
+            "speedtestdotnet",
+            "e781645e200f4cf18b8f04394624dfec"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "SpeedTest",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "a164ffd0131661b41831775138fbf9a0"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "144519c42523f23e89bb88d8e7364d74",
+        "identifiers": [
+          [
+            "uptime",
+            "a164ffd0131661b41831775138fbf9a0"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Uptime",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "digital_switches",
+        "config_entries": [
+          "9285c07e8e3afc12aeb70b01985dd23c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "26cab755cbf86c101846f74f88d0b3f7",
+        "identifiers": [
+          [
+            "mobile_app",
+            "527b16071dd2f76d"
+          ]
+        ],
+        "manufacturer": "LGE",
+        "model": "LM-X420",
+        "name_by_user": null,
+        "name": "LM-X420",
+        "sw_version": "28",
+        "via_device_id": null
+      },
+      {
+        "area_id": "digital_switches",
+        "config_entries": [
+          "1cca4b97d01c9b98d55f90eaa9daba39"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "8e44a2aa4ea5a40852a07732521b5463",
+        "identifiers": [
+          [
+            "mobile_app",
+            "4870a5638a63a2f1"
+          ]
+        ],
+        "manufacturer": "Umx",
+        "model": "U693CL",
+        "name_by_user": null,
+        "name": "living room",
+        "sw_version": "28",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "dacf62c8e152f0724cdfa66dc030554b"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "3d52e4a8ea212be9f2bf004c19eb1f9b",
+        "identifiers": [
+          [
+            "nws_alerts",
+            "dacf62c8e152f0724cdfa66dc030554b"
+          ]
+        ],
+        "manufacturer": "NWS",
+        "model": null,
+        "name_by_user": null,
+        "name": "NWS Alerts",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "71e0dcfa6309e3af02f7460573d6abf5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "58e1872f4dfb9d32ba1dd0849e31eb94",
+        "identifiers": [
+          [
+            "nws_alerts",
+            "71e0dcfa6309e3af02f7460573d6abf5"
+          ]
+        ],
+        "manufacturer": "NWS",
+        "model": null,
+        "name_by_user": null,
+        "name": "NWS Alerts",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "21086837e7702af030e6afb92895a105",
+        "identifiers": [
+          [
+            "cast",
+            "d8658eed2012e25f3910da5ce0f9d5cc"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast",
+        "name_by_user": null,
+        "name": "4 Living Room TV",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "phones",
+        "config_entries": [
+          "1338db1b2d19b227502516ac7a59ed50"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "9df3389de88b4f95c7e6947f46ca4d46",
+        "identifiers": [
+          [
+            "mobile_app",
+            "e5714e0955c11111"
+          ]
+        ],
+        "manufacturer": "samsung",
+        "model": "SM-S911U",
+        "name_by_user": null,
+        "name": "steve-s23",
+        "sw_version": "33",
+        "via_device_id": null
+      },
+      {
+        "area_id": "phones",
+        "config_entries": [
+          "f1d29acd069ac3cb7a4d42883e2fbe9e"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "67c2b7e6dc374e6d822626f153e2f858",
+        "identifiers": [
+          [
+            "mobile_app",
+            "551a2a626a7b0298"
+          ]
+        ],
+        "manufacturer": "samsung",
+        "model": "SM-A115U",
+        "name_by_user": null,
+        "name": "Steve-galaxy-A11",
+        "sw_version": "29",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "9d451719627e7593a9bfc9010263227b",
+        "identifiers": [
+          [
+            "cast",
+            "5308a9af5a794046468fcf62554f3318"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Hub",
+        "name_by_user": "Living Room Hub",
+        "name": "Living Room display",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "e57fea5e08c525d6721ecde1b1ef6a26",
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c50104fbb03bf9d7d9968323f88d4214",
+        "identifiers": [
+          [
+            "cast",
+            "fc3404e1bb4d8740afac8d505f342f54"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "Kitchen speaker",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "workshop",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "0f110dd2614945aca779e20f64101ec4"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "75c333bc91d7e99d529d286f28263bed",
+        "identifiers": [
+          [
+            "tuya",
+            "ebbe35136bcecc6975y1bu"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": null,
+        "name": "Workshop Basin",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "1c590e36716e8078c3b2443aa335f97f",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7610781a1eb384d9bf9cca6e1be33589",
+        "identifiers": [
+          [
+            "tuya",
+            "ebe4a38a5658e30cb04laa"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": "Kitchen Counter",
+        "name": "Kitchen counter Light",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "outside",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "bd93e0d91408423397d8a60269f5d5f7",
+        "identifiers": [
+          [
+            "tuya",
+            "eb37edaa2c9d0bee17rpgi"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (e8dhekwuvrdogter)",
+        "name_by_user": null,
+        "name": "Backyard Light",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_mosquitto",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "5d091b5b1c1bd3a73cb31691d065cc0a",
+        "identifiers": [
+          [
+            "hassio",
+            "core_mosquitto"
+          ]
+        ],
+        "manufacturer": "core",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Mosquitto broker",
+        "sw_version": "6.3.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "6e4388f62871ac22ba35d326b00c30eb"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "39931da989daf070998a332c4aa875e6",
+        "identifiers": [
+          [
+            "tuya",
+            "ebd68ad97e2ea2e9efmw9v"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": " (c0raacap0zsw7gq8)",
+        "name_by_user": null,
+        "name": "Computer light",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "phones",
+        "config_entries": [
+          "2c595b91bd11192c68b02d1f2d70d937"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "cf5dfad53d04cf6c69df6f419c57b03f",
+        "identifiers": [
+          [
+            "mobile_app",
+            "eaefdd89c73197ec"
+          ]
+        ],
+        "manufacturer": "PCD",
+        "model": "P63L",
+        "name_by_user": null,
+        "name": "P63L",
+        "sw_version": "31",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057",
+          "16274943e2b5d285e9852e69b91edd9c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ab33eda6da0a76cc917f0b695e40c21e",
+        "identifiers": [
+          [
+            "cast",
+            "31ac12005701dea94dc2cb86a7069179"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "Frankenstein",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "media",
+        "config_entries": [
+          "94a6e1c04b747c8d8729411800a3b27f"
+        ],
+        "configuration_url": "http://172.16.33.129:8096",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7080c1c1336fc9c9f31a726bd35d44ae",
+        "identifiers": [
+          [
+            "jellyfin",
+            "http://172.16.33.129:8096"
+          ]
+        ],
+        "manufacturer": "Jellyfin",
+        "model": "Jellyfin 10.8.11",
+        "name_by_user": null,
+        "name": "Bookworm",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "0fc98fdd822848d25a9652531685a9da",
+          "412c363a52130d68f648bec566133102",
+          "375caaf72a7dcb5d0cf2b18828d093b2",
+          "84faf8200fa09b7888ff7893086cec0e",
+          "1b887e0fe451fa5007c3e26298e82c14",
+          "607281f3b9ef06b67e62deb968330197",
+          "5e22ba09c6517d6c79ee63fb393e9964",
+          "a040655f3635bb25752695b201fc61f1",
+          "8607e5cd1182a8c9e9e73c223f4968ea"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d2f9d362cf2024c77f16d70cb40d9c8d",
+        "identifiers": [
+          [
+            "Home Assistant",
+            "version"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": null,
+        "name_by_user": null,
+        "name": "Home Assistant Version",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "30523105aa21ebfa65401a9caa511fe0"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "4f900bd81cdd73dc5981195fb0999862",
+        "identifiers": [
+          [
+            "zodiac",
+            "30523105aa21ebfa65401a9caa511fe0"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Zodiac",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "cameras",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "d03fff0d19f2b358b5cb9a59d5ea7716",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F2729E140"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WYZE_CAKP2JFUS",
+        "name_by_user": null,
+        "name": "Backdoor new",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "3d31d32821ec7d8e1f90dc433baafbda"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "78:80:38:e8:b0:5d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e363beff9f4e861f28fab3e7da4c82c0",
+        "identifiers": [
+          [
+            "androidtv",
+            "78:80:38:e8:b0:5d"
+          ]
+        ],
+        "manufacturer": "Funai",
+        "model": "PHILIPS 4k TV (Android TV)",
+        "name_by_user": null,
+        "name": "Android TV 172.16.33.189",
+        "sw_version": "9",
+        "via_device_id": null
+      },
+      {
+        "area_id": "camera_controls",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e58707537e95877d5ab6ebe81bc27e5e",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "2CAA8E788CA7"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WLPP1",
+        "name_by_user": null,
+        "name": "Back Power ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "fbc0113842a4d5cddcfecf5031ee1bd8",
+          "3d31d32821ec7d8e1f90dc433baafbda",
+          "aa8b568581659d519fce43ffddaca9b3"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "1c:53:f9:16:9b:e8"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "6790575591dfccab3194ee34f5f466cf",
+        "identifiers": [
+          [
+            "androidtv",
+            "1c:53:f9:16:9b:e8"
+          ]
+        ],
+        "manufacturer": "Google",
+        "model": "Chromecast (Android TV)",
+        "name_by_user": null,
+        "name": "Android TV 172.16.33.165",
+        "sw_version": "12",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_ssh",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "0be1e7fb9a31cdbef25e3e78123621c5",
+        "identifiers": [
+          [
+            "hassio",
+            "core_ssh"
+          ]
+        ],
+        "manufacturer": "core",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Terminal & SSH",
+        "sw_version": "9.7.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": "routers",
+        "config_entries": [
+          "fbc0113842a4d5cddcfecf5031ee1bd8",
+          "c72e4a92ea0e1781262eaaafd7d86a9c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": "config_entry",
+        "entry_type": null,
+        "hw_version": "2.0",
+        "id": "d2c9f0185d8bcd6e7f51256b36e7d75f",
+        "identifiers": [
+          [
+            "tplink_deco",
+            "B0-95-75-39-4F-20"
+          ]
+        ],
+        "manufacturer": "TP-Link Deco",
+        "model": "S4",
+        "name_by_user": null,
+        "name": "Living room ceiling  Deco",
+        "sw_version": "1.5.1 Build 20220113 Rel. 42007",
+        "via_device_id": "6429a7f4d0bd95271bf3f35a007b98ac"
+      },
+      {
+        "area_id": "routers",
+        "config_entries": [
+          "fbc0113842a4d5cddcfecf5031ee1bd8",
+          "aa8b568581659d519fce43ffddaca9b3"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": "config_entry",
+        "entry_type": null,
+        "hw_version": "2.0",
+        "id": "fae26a69610d0657d791ce5dc75a4e57",
+        "identifiers": [
+          [
+            "tplink_deco",
+            "B0-95-75-39-90-04"
+          ]
+        ],
+        "manufacturer": "TP-Link Deco",
+        "model": "S4",
+        "name_by_user": null,
+        "name": "Living Room Deco",
+        "sw_version": "1.5.1 Build 20220113 Rel. 42007",
+        "via_device_id": "6429a7f4d0bd95271bf3f35a007b98ac"
+      },
+      {
+        "area_id": "cameras",
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "49d4a2ab5d0ddc5f7067e79f2dbe9eaf",
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F2729EE2E"
+          ]
+        ],
+        "manufacturer": "WyzeLabs",
+        "model": "WYZE_CAKP2JFUS",
+        "name_by_user": null,
+        "name": "kitchen ",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "a6464681f162917b271280637c9162b2"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "22edbcd684f9670ecf85eeae99f6c300",
+        "identifiers": [
+          [
+            "mobile_app",
+            "2d2ab7906f146e44"
+          ]
+        ],
+        "manufacturer": "samsung",
+        "model": "SM-S911U",
+        "name_by_user": null,
+        "name": "steve_S23",
+        "sw_version": "33",
+        "via_device_id": null
+      },
+      {
+        "area_id": "routers",
+        "config_entries": [
+          "fbc0113842a4d5cddcfecf5031ee1bd8"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": "config_entry",
+        "entry_type": null,
+        "hw_version": "2.0",
+        "id": "6429a7f4d0bd95271bf3f35a007b98ac",
+        "identifiers": [
+          [
+            "tplink_deco",
+            "B0-95-75-39-72-60"
+          ]
+        ],
+        "manufacturer": "TP-Link Deco",
+        "model": "S4",
+        "name_by_user": null,
+        "name": "Workshop-Demarc Deco",
+        "sw_version": "1.5.1 Build 20220113 Rel. 42007",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "29e08fdf9a5bb275d15b6eaadcdda7c0",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_vscode"
+          ]
+        ],
+        "manufacturer": "a0d7b954",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Studio Code Server",
+        "sw_version": "5.11.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "249c386c4b3835030f12ae4e20802d66"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "29fe879069240d735d1f37cd935f646a",
+        "identifiers": [
+          [
+            "mobile_app",
+            "2358dcb10d148599"
+          ]
+        ],
+        "manufacturer": "OX TAB",
+        "model": "Ox-p010-2",
+        "name_by_user": null,
+        "name": "Ox-p010-2",
+        "sw_version": "31",
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "64adfbc9a553dfbc7c2d5bdcdbea010b",
+        "identifiers": [
+          [
+            "tuya",
+            "eb803a08348fd40a7a1tt6"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "Smart Tape Light (h7oc2fwmxjevvlvy)",
+        "name_by_user": null,
+        "name": "ceiling light 1",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "be439ffa33cf38da133ffab6411525cd",
+        "identifiers": [
+          [
+            "tuya",
+            "ebd315a96e39c9a604baoj"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "Smart Tape Light (h7oc2fwmxjevvlvy)",
+        "name_by_user": null,
+        "name": "ceiling light 2",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0dc306146a7d84abf347aa7ff48e900f",
+        "identifiers": [
+          [
+            "tuya",
+            "eb37d6a02de0fb1070g3zr"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": "Kitchen Sink Light",
+        "name": "Bathroom Light",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "workshop",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e096f25b4e181442c76f72a0594db082",
+        "identifiers": [
+          [
+            "tuya",
+            "ebb2d009930e5ec1ceujxy"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "60W Tune + Color (7ikqxfqce1pjrwal)",
+        "name_by_user": null,
+        "name": "workshop entrance 1",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "outside",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7f562939aa3afab8f62018aaa3001eb5",
+        "identifiers": [
+          [
+            "tuya",
+            "ebd20644dfae9e8339evun"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "BR30 Tune + Color (oq09radoqogb5fbu)",
+        "name_by_user": null,
+        "name": "Backdoor light",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "workshop",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "52a750bea7ef9887491ffff91e60175e",
+        "identifiers": [
+          [
+            "tuya",
+            "eb0392d9bbc3657d7dx2du"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (e8dhekwuvrdogter)",
+        "name_by_user": null,
+        "name": "workshop back",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2e39e7b9fa458f2b0b628a058006a275",
+        "identifiers": [
+          [
+            "tuya",
+            "ebee486defb157f899dszj"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": null,
+        "name": "couch light 2",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "9647929c5de8f99869635ae8cfb1540d",
+        "identifiers": [
+          [
+            "tuya",
+            "eb4e558fe98e9400e3hpxl"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": null,
+        "name": "Couch light 1",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "69bdd46107aec638111acf890d85c256",
+        "identifiers": [
+          [
+            "tuya",
+            "eb41f7d17a721fafd4pn0e"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "60W Tune + Color (7ikqxfqce1pjrwal)",
+        "name_by_user": null,
+        "name": "Rhyleigh  1",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "367fa7a2ffdbd0a4ab8667597aec978e",
+        "identifiers": [
+          [
+            "tuya",
+            "ebeed1828eee846efeswgj"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": null,
+        "name": "Bedside Lamp",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "57099c940c6899e5cfc07aa70ebfa482"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "03662a7fe25cfbfbdabbb525b9fef2d5",
+        "identifiers": [
+          [
+            "openuv",
+            "43.013244739925234_-87.93936878442766"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "OpenUV",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "bedroom",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "423ff02a3dc6f0155f3a05da895f9fad",
+        "identifiers": [
+          [
+            "tuya",
+            "ebe128e6fbb0043787bdfd"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": null,
+        "name": "Rhyleigh 2",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "44849ab300e5961d7b4a5ec754c73632",
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "fdc55485843f1c4d805829b53e42c736",
+        "identifiers": [
+          [
+            "cast",
+            "9ef6f84df8f82a7f447c49f682554232"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Mini",
+        "name_by_user": null,
+        "name": "4 Living Room speaker",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "2268d528dcba7340c2b27615a0166aec",
+        "identifiers": [
+          [
+            "tuya",
+            "eb7470b4e923684165qfrq"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": null,
+        "name": "kitchen Light 1",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "21c4e6830fd1de12b3fab58c814ce462",
+        "identifiers": [
+          [
+            "tuya",
+            "eb5350b66072a37cb98xzh"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": null,
+        "name": "kitchen Light 2",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "bathroom",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "678d24d147c27e98c43cbfc04ac8cc71",
+        "identifiers": [
+          [
+            "tuya",
+            "eb17df4cc594c3c78bbtm8"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (e8dhekwuvrdogter)",
+        "name_by_user": null,
+        "name": "bathroom light 2",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "bathroom",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b8faeda48bc88db0b63b7b3dd7ac02b3",
+        "identifiers": [
+          [
+            "tuya",
+            "eb0573213ee15d82d2qozl"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": null,
+        "name": "bathroom light 1",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "closet",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7487779698ec74d26a5bfce7d6fa783c",
+        "identifiers": [
+          [
+            "tuya",
+            "eb799b61039416d4fduutw"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "100W Tune + Color (wizkraidfeywivay)",
+        "name_by_user": null,
+        "name": "office 2",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "closet",
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "60f6b8ef71f3763ae88ad045c1027653",
+        "identifiers": [
+          [
+            "tuya",
+            "eb7058078b89aaa85fuddi"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "60W Tune + Color (7ikqxfqce1pjrwal)",
+        "name_by_user": null,
+        "name": "office 1",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_git_pull",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "214a9d5b5256b73f4b65fcd87b41c136",
+        "identifiers": [
+          [
+            "hassio",
+            "core_git_pull"
+          ]
+        ],
+        "manufacturer": "core",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Git pull",
+        "sw_version": "7.13.1",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_dnsmasq"
+          ]
+        ],
+        "id": "dfa67b4caeda14314f12dab794ab52fa",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_cec_scan"
+          ]
+        ],
+        "id": "ffa654e84e9fe26d9aba3193c3ef68d3",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "db21ed7f_portainer"
+          ]
+        ],
+        "id": "a42075a0f158eb7024b6d934d70e4efb",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "f13d15503931a9def361910ff581d057"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "1539f7d8552ffc8d707b9a5ef96d7bce"
+          ]
+        ],
+        "id": "d660e75bf79cc20098953a6ae42fe675",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "dd9d286190939ed4fc82b3fee1234313",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb51828571485d3778dqco"
+          ]
+        ],
+        "id": "bac19ca8223b372dbe9a857214dfad0f",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "0d1188f9a0e07e8b383159704be5aa3e",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "ebb39cc661a351c6a23hqu"
+          ]
+        ],
+        "id": "1bdfb01764aff992331100da0dccece9",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "db21ed7f_mealie"
+          ]
+        ],
+        "id": "ad5a0ede831000123e039c4da78a4ecc",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "db21ed7f_arpspoof"
+          ]
+        ],
+        "id": "69e677831d28071132c373bffd73b132",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "00185a40_simplescheduler"
+          ]
+        ],
+        "id": "86d1fa05015c5f5307e3e4578e50396d",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "2effc9b9_speedtest"
+          ]
+        ],
+        "id": "088364b0540b87bc5012d460c7ada622",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "db21ed7f_flexget"
+          ]
+        ],
+        "id": "70a56cc913092df5799310f451127a54",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "db21ed7f_joplin"
+          ]
+        ],
+        "id": "a7342a8ef1163104b3b8c406592db3f0",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "ccab4aaf_frigate"
+          ]
+        ],
+        "id": "8fdb5dd5615a8cca8376c814fe3788d3",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "db21ed7f_radarr_nas"
+          ]
+        ],
+        "id": "541bcd34f32331863e75ba04523f533a",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_plex"
+          ]
+        ],
+        "id": "b828d230c0db725ffb85377dc05cc8c1",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "b5f96d41e740cb85c10b1bbe3edc7e7d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "wyzeapi",
+            "D03F273521A5"
+          ]
+        ],
+        "id": "66d1a6beab77208bbb72c7bd7edd22aa",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "b4a2dc93d444dee45b3a047871710e09"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb1373e15a45ae842bger3"
+          ]
+        ],
+        "id": "75c136878d77593061fa8bc74129fda1",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_configurator"
+          ]
+        ],
+        "id": "5ecd0c744d1b934c3f522ee8fb1abce5",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "db21ed7f_jellyseerr"
+          ]
+        ],
+        "id": "64c05463f2b2ea85ab0041dc301d2259",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb6e208b1e7a935afao2ev"
+          ]
+        ],
+        "id": "462fc5f13544262c702f0511abbbb57c",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb9231e5bc00c8c27fqpvo"
+          ]
+        ],
+        "id": "b3f97dbd80214c5efbc34eedf1ebc334",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "7a3ae0dfa7ba8c15117ee62f56526fb2"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "ebd91460712856e7bbcj9y"
+          ]
+        ],
+        "id": "f38fbfc61ac1a5b3325ef53dbc040a83",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "bc12e17ef231d88cf7d20a7c2e6154d8",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb759aac0f668ecd4eornk"
+          ]
+        ],
+        "id": "888a7e0c3d110bacaf9b2629e71a51e6",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "a98c87e22cfa9ba6bbd23876876fb3dc",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb456b9d22fe099ab9y8uq"
+          ]
+        ],
+        "id": "d366dbe0f406d04059d32996a888dd95",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "c70526806030daa7c14fa899c2fc7ca9"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "ebad89a1c1a27f5043gn9j"
+          ]
+        ],
+        "id": "4c4b57c0a0651e036abc28ec215d25aa",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "9814613ad6ef5a4a8bc77ccfe657e1d4"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb673a7da25d29b060owcz"
+          ]
+        ],
+        "id": "2e206706f307e0bf03849e99d1ccb028",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "f847dcf61e6451d3cd86b04b914a37a6",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "ebb4f4070fed2daceahu0s"
+          ]
+        ],
+        "id": "8399c11e9afeae3cf5d98d23205a88c5",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "01c50615e0db3edf98565e7d046f7b1c",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eba01394702459ef57ghd5"
+          ]
+        ],
+        "id": "76e7f8824d0419b0edd7f0f3cfc4a3d7",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "ca1fe15298bb0615b9fc3d0fb041b154",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "ebb64b55ee7f309fffhjlr"
+          ]
+        ],
+        "id": "ff40099696427c1d79d8ebfb598ab80a",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "d6880b73242a79c481fab2ef0dd45182"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "ebc0c75150db86cdaecn2v"
+          ]
+        ],
+        "id": "79586f9978b6f4cc16f1d36f6fa0f733",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "c15225d2e9bb7b65006da7cc80c6f566",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb8609eac65071646dxsik"
+          ]
+        ],
+        "id": "7711eb64b3dacca5b673c945207b9643",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "2ac69e5d3cec4935c1ff4dd148f9d3fc",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb047f7fd2aa9a7f1dgnxj"
+          ]
+        ],
+        "id": "2639eca5a3d882579dde009538aa30e6",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "b95561dd3fc1b3558ebd657f693b4efc",
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb9c22a56319d8a953txw4"
+          ]
+        ],
+        "id": "b8e819469d51f89ce64c59debf00e10c",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb1130ee4c11773b31gido"
+          ]
+        ],
+        "id": "2668911778f86ef033bd307643b2f57d",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "b20b67c79f69c16821833c1890de4d46"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb68401cefa2369f72e71r"
+          ]
+        ],
+        "id": "cf6b4270615bde4f0c3ab801d42117cd",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc",
+          "1a34f5924d86359c35b7d93091107cdf"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb6b66425467825fbdooow"
+          ]
+        ],
+        "id": "33a860feb7454599ccafa3fda16c67ad",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb330a7acd48f626bbfwhn"
+          ]
+        ],
+        "id": "c1fa5be5292cb4875b10d12f217e8880",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "ebb2b3bdadae4494e5twn4"
+          ]
+        ],
+        "id": "77d5c5239ca7d60ece21e6b0ff49acd6",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb34386d60b2902cfdok3l"
+          ]
+        ],
+        "id": "048e5a8b5ff4ae99b704cfbeb3149b27",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb341bbdb506863397gr7b"
+          ]
+        ],
+        "id": "00b729415cdf8f1dae6e7300addf8780",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb51551899715e9695vf4y"
+          ]
+        ],
+        "id": "48211b91bb3dab51667cce56dc35628b",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "ebca019acf90b9aba8cjxm"
+          ]
+        ],
+        "id": "c338b8dbcf04250acd99ca4919de6ddd",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "ebea15fc715f6d56behmya"
+          ]
+        ],
+        "id": "d2edb9f6a9422525290189214ad1c58a",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "5fdd61c394d387c33af7fc22990d29dc"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "eb00441736db624819fgaj"
+          ]
+        ],
+        "id": "07cc73b227663f6a1345d8d33cc1db90",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "1ec3f91eb56a49554a05a44d15621b06"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_adguard"
+          ]
+        ],
+        "id": "ceb9a6f8ac55798d6e6157ac00dcd028",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "adguard",
+            "127.0.0.1",
+            45158,
+            "/control/"
+          ]
+        ],
+        "id": "8ab928ffbb534f2c6b1ece273bb5b082",
+        "orphaned_timestamp": 1697509475.9305449
+      }
+    ]
+  }
+}

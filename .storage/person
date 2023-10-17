@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "steve_meyer",
+        "name": "Steve Meyer",
+        "user_id": "1fe8a5aeec0a40ab9d643951459a52d8",
+        "device_trackers": [
+          "device_tracker.p63l",
+          "device_tracker.steve_s23_2",
+          "device_tracker.rhyleigh_s_phone",
+          "device_tracker.ox_p010_2"
+        ],
+        "picture": "/api/image/serve/2eaba523a509d0ae83a99061afd3f72f/512x512"
+      },
+      {
+        "id": "laurie_meyer",
+        "name": "Laurie Meyer",
+        "device_trackers": [
+          "device_tracker.rhyleigh_s_phone"
+        ],
+        "user_id": "f4b85e80b7074bdbbaead391c759df27",
+        "picture": "/api/image/serve/3d20b9e44e43ce7c415b5092f66b92bf/512x512"
+      },
+      {
+        "id": "rhyleigh_meyer",
+        "name": "Rhyleigh Meyer",
+        "device_trackers": [
+          "device_tracker.rhyleigh_s_phone"
+        ],
+        "user_id": "62946345038748b7ac70071ef5c84754",
+        "picture": null
+      }
+    ]
+  }
+}

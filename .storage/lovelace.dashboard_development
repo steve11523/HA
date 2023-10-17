@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_development",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "custom:weather-radar-card",
+              "data_source": "RainViewer-TWC",
+              "map_style": "Satellite",
+              "show_marker": true,
+              "static_map": true,
+              "show_scale": true,
+              "show_range": true,
+              "square_map": false,
+              "show_recenter": false,
+              "extra_labels": false
+            },
+            {
+              "type": "history-graph",
+              "entities": [
+                {
+                  "entity": "person.laurie_meyer"
+                },
+                {
+                  "entity": "person.steve_meyer"
+                },
+                {
+                  "entity": "person.rhyleigh_meyer"
+                }
+              ]
+            },
+            {
+              "type": "custom:select-list-card",
+              "entity": "input_select.default_dashboard",
+              "icon": "",
+              "truncate": true,
+              "show_toggle": false,
+              "scroll_to_selected": true,
+              "max_options": 11
+            },
+            {
+              "type": "custom:tabbed-card",
+              "options": {},
+              "tabs": [
+                {
+                  "label": "Sun",
+                  "card": {
+                    "type": "entity",
+                    "entity": "sun.sun"
+                  }
+                },
+                {
+                  "label": "Sun 2",
+                  "card": {
+                    "type": "button"
+                  }
+                }
+              ],
+              "tap_action": {
+                "action": "toggle"
+              },
+              "entity": "light.outside"
+            },
+            {
+              "type": "entities",
+              "show_header_toggle": false,
+              "entities": [
+                {
+                  "entity": "light.couch_lamp_1"
+                },
+                {
+                  "type": "custom:rgb-light-card",
+                  "entity": "light.kitchen",
+                  "colors": [
+                    {
+                      "rgb_color": [
+                        234,
+                        136,
+                        140
+                      ],
+                      "brightness": 255,
+                      "transition": 1
+                    },
+                    {
+                      "rgb_color": [
+                        251,
+                        180,
+                        139
+                      ],
+                      "brightness": 200,
+                      "transition": 1
+                    },
+                    {
+                      "rgb_color": [
+                        136,
+                        198,
+                        237
+                      ],
+                      "brightness": 150,
+                      "transition": 1
+                    },
+                    {
+                      "rgb_color": [
+                        140,
+                        231,
+                        185
+                      ],
+                      "brightness": 100,
+                      "transition": 1
+                    }
+                  ]
+                },
+                {
+                  "entity": "light.couch_lamp_2"
+                },
+                {
+                  "entity": "light.lamp"
+                },
+                {
+                  "entity": "light.computer_light"
+                }
+              ],
+              "title": "living room"
+            },
+            {
+              "type": "custom:digital-clock"
+            },
+            {
+              "type": "custom:compass-card",
+              "indicator_sensors": [
+                {
+                  "sensor": "sun.sun",
+                  "attribute": "azimuth"
+                }
+              ],
+              "value_sensors": [
+                {
+                  "sensor": ""
+                }
+              ]
+            },
+            {
+              "type": "custom:logbook-card",
+              "entity": "binary_sensor.file_editor_running"
+            }
+          ]
+        },
+        {
+          "title": "power",
+          "path": "power",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.1_closet_office_speaker_power",
+                "sensor.3_bathroom_speaker_power",
+                "sensor.4_frankenstein_power",
+                "sensor.4_living_room_speaker_power",
+                "sensor.4_living_room_speaker_2_power",
+                "sensor.all_standby_power",
+                "sensor.lamp_power"
+              ]
+            },
+            {
+              "type": "custom:power-distribution-card",
+              "title": "Title",
+              "entities": [
+                {
+                  "decimals": 2,
+                  "display_abs": true,
+                  "name": "",
+                  "unit_of_display": "W",
+                  "entity": "sensor.lamp_power",
+                  "preset": ""
+                },
+                {
+                  "decimals": 2,
+                  "display_abs": true,
+                  "name": "",
+                  "unit_of_display": "W",
+                  "entity": "sensor.1_closet_office_speaker_power",
+                  "preset": ""
+                }
+              ],
+              "center": {
+                "type": "none",
+                "content": [
+                  {
+                    "preset": "autarky",
+                    "name": "autarky"
+                  },
+                  {
+                    "preset": "ratio",
+                    "name": "ratio"
+                  }
+                ]
+              },
+              "animation": "slide"
+            }
+          ]
+        },
+        {
+          "title": "cam",
+          "path": "cam",
+          "badges": [],
+          "cards": [
+            {
+              "type": "custom:webrtc-camera",
+              "url": "rtsp://camrtsp:Letmeinn0w@172.16.33.240/live"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

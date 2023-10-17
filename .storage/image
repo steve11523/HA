@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "image",
+  "data": {
+    "items": [
+      {
+        "id": "2eaba523a509d0ae83a99061afd3f72f",
+        "filesize": 415076,
+        "content_type": "image/jpeg",
+        "name": "20230703_211424.jpg",
+        "uploaded_at": "2023-08-20T18:33:09.306539+00:00"
+      },
+      {
+        "id": "3d20b9e44e43ce7c415b5092f66b92bf",
+        "filesize": 96040,
+        "content_type": "image/jpeg",
+        "name": "20230703_211424.jpg",
+        "uploaded_at": "2023-08-20T18:33:51.871461+00:00"
+      },
+      {
+        "id": "f5704e3d4d30002882740456658a338b",
+        "filesize": 17813,
+        "content_type": "image/jpeg",
+        "name": "wyze_wlppo11_smart_outdoor_plug_with_ip64_water_resistance_2.jpg",
+        "uploaded_at": "2023-09-05T18:33:17.593079+00:00"
+      },
+      {
+        "id": "c79b50d90cec63ce5b8bec56ba2e65f7",
+        "filesize": 11484,
+        "content_type": "image/jpeg",
+        "name": "bath.jpeg",
+        "uploaded_at": "2023-10-16T22:38:50.336419+00:00"
+      },
+      {
+        "id": "55aeaec23b1dc97bdc1323cbf4c40249",
+        "filesize": 381273,
+        "content_type": "image/jpeg",
+        "name": "lvr.jpg",
+        "uploaded_at": "2023-10-16T22:39:26.216713+00:00"
+      },
+      {
+        "id": "94c9a0bfdb862bca55cb1cf6639a4aa1",
+        "filesize": 73715,
+        "content_type": "image/jpeg",
+        "name": "bed.jpg",
+        "uploaded_at": "2023-10-17T02:21:27.603558+00:00"
+      },
+      {
+        "id": "4ab0b38b5c6886fed1833fb51d8e2995",
+        "filesize": 905736,
+        "content_type": "image/jpeg",
+        "name": "kitchen.jpg",
+        "uploaded_at": "2023-10-17T02:22:34.072313+00:00"
+      },
+      {
+        "id": "0b1725ba51a11179011c2174074159cd",
+        "filesize": 54921,
+        "content_type": "image/jpeg",
+        "name": "entry.jpg",
+        "uploaded_at": "2023-10-17T02:23:15.530513+00:00"
+      }
+    ]
+  }
+}

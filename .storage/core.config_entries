@@ -1,0 +1,2411 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "1ec3f91eb56a49554a05a44d15621b06",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9b5da5d5bf0459ba81335ba7e3b7e5ea",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f13d15503931a9def361910ff581d057",
+        "version": 1,
+        "domain": "cast",
+        "title": "Google Cast",
+        "data": {
+          "ignore_cec": [],
+          "known_hosts": [],
+          "uuid": [],
+          "user_id": "05eb8a1403bd42b5923c94418490db9d"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "cast",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "33f72874195f5e225afad49d39e20c49",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5b44d9c90250d73f76827ffaa3712296",
+        "version": 1,
+        "domain": "upnp",
+        "title": "OnHub",
+        "data": {
+          "udn": "uuid:bbcbbe93-c746-4775-84fc-8a09dd2e5434",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+          "original_udn": "uuid:9bd37309-bfcf-4188-9a67-0849af6e5c0c",
+          "location": "http://172.16.33.254:5000/rootDesc.xml",
+          "mac_address": "60:b7:6e:ed:8d:74",
+          "host": "172.16.33.254"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:bbcbbe93-c746-4775-84fc-8a09dd2e5434::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "fa35c032dd2fec6182ce693c3dc854f9",
+        "version": 1,
+        "domain": "androidtv_remote",
+        "title": "Camera Monitor",
+        "data": {
+          "host": "172.16.33.224",
+          "name": "Camera Monitor",
+          "mac": "1C:53:F9:44:0B:36"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "1c:53:f9:44:0b:36",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "cce3735186f0138a5036e0dcec8e627f",
+        "version": 1,
+        "domain": "androidtv_remote",
+        "title": "main",
+        "data": {
+          "host": "172.16.33.220",
+          "name": "main",
+          "mac": "78:80:38:E8:3D:64"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "78:80:38:e8:3d:64",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5fdd61c394d387c33af7fc22990d29dc",
+        "version": 1,
+        "domain": "tuya",
+        "title": "steve.meyer@gmail.com",
+        "data": {
+          "endpoint": "https://openapi.tuyaus.com",
+          "auth_type": 0,
+          "access_id": "ynpufw4d9q8gt5k4afeg",
+          "access_secret": "478d84e33fe44e50a3f7426d042d1338",
+          "username": "steve.meyer@gmail.com",
+          "password": "Letmein!1!",
+          "country_code": "1",
+          "tuya_app_type": "tuyaSmart"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "dhcp",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "26acd08d9794f0f2008152d042d44fab",
+        "version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b5f96d41e740cb85c10b1bbe3edc7e7d",
+        "version": 1,
+        "domain": "wyzeapi",
+        "title": "",
+        "data": {
+          "username": "steve.meyer11523@gmail.com",
+          "password": "Letmein!1!",
+          "access_token": "lvtx.lCX59Xey+LiCu8N9yr0DJvp4XM38694bkb7ejmilC2FrOWFFIDibrzIlJMAVqdTwtQea0+G1DXDkeVjV2QqXuBN/wPnV/aYGniMKH4hRHmFXPpIrATjbfyZ4JU4Z2c/vkUoKk8cMsl9TYEr+IbZpOtOWTn1LDWGH5BYTv+/EASS9x9SF2xLS8YKJpJ3UauC9qQBg9w==",
+          "refresh_token": "lvtx.kgy03hYb0IJXaMymDxhbK8QG22Jg95cBsHi13WZNNRnjJ1Niyc2dIyp4KaYtU9pkcQ0L7pB/sr1flXooBbyCjiLqUq2im6BZ3DKfaooE7MI8RFVXgyYq5Myyhp0S4Nvalm/C6TLmjL0R3aCbFsXBXFutxmMLFyWLQFaX19fKNG5Nc9xhdDiqFa8qVE7WRHzafV5lMQ==",
+          "refresh_time": "1697587767.61442"
+        },
+        "options": {
+          "bulb_local_control": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "27def493bdad57be850b60f6b2b7b8be",
+        "version": 1,
+        "domain": "dwains_dashboard",
+        "title": "",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f782b2211ee0a9abff2009850cec460e",
+        "version": 1,
+        "domain": "nws",
+        "title": "KMKE",
+        "data": {
+          "api_key": "stevemeyer@gmail.com",
+          "latitude": 43.013244739925234,
+          "longitude": -87.93936878442766,
+          "station": "KMKE"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "43.013244739925234_-87.93936878442766",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a636fe48dc287b85d08126a28f6c7f25",
+        "version": 2,
+        "domain": "nws_alerts",
+        "title": "NWS Alerts",
+        "data": {
+          "zone_id": "WIC079,WIZ066,WIZ066",
+          "name": "NWS Alerts",
+          "interval": 1,
+          "timeout": 120
+        },
+        "options": {
+          "zone_id": "WIC079,WIZ066,WIZ066",
+          "name": "NWS Alerts",
+          "interval": 1,
+          "timeout": 120
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2274c3778c913b085c8fce25919dbec7",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Laurie's S23",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.10.2-full (11484)",
+          "device_name": "Laurie's S23",
+          "manufacturer": "samsung",
+          "model": "SM-S911U",
+          "os_name": "Android",
+          "os_version": "33",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "dSRVn05iSBCn-QOGIUByxz:APA91bHH_Bcn1v-ZM-SPjS050x-b7pgtf0PkAEp_qn66vU_B5GBvvAYO_XVii-09GUihSi2YC_fr6AwhdyrukxuGxDNQX0AG4GYM3OwxJJhEQBLJXwDn5dW2QWvafDmWjJJ_8b4b7xOt"
+          },
+          "device_id": "94fc68601199a9a1",
+          "cloudhook_url": "https://hooks.nabu.casa/gAAAAABkWxsMtbGjOvSVAwjX4uYx51qTXNBVc-ueiVcEohH1WtbvypJqTQaMBGWoG2RsB1cj5171jrv4pzePShMzdWPbOac6v-ngb3aamY97xOrhsfr1JjRa__Jf14KxMXNClxupWN-vszeilJ_erP4s_vwPKTPKjCsKwsxDBX9WqLg_o4BSbpM=",
+          "webhook_id": "9cd8316ab4957bee347ad9bcf0ed0ec783e4348994ae30ddafbd0b24fa0cf2bf",
+          "user_id": "f4b85e80b7074bdbbaead391c759df27"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-94fc68601199a9a1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ee0f3f4e8f4e44b58338c0cb0fb73f12",
+        "version": 2,
+        "domain": "forecast_solar",
+        "title": "Home",
+        "data": {
+          "latitude": 43.013244739925234,
+          "longitude": -87.93936878442766
+        },
+        "options": {
+          "azimuth": 180,
+          "declination": 25,
+          "modules_power": 0,
+          "damping_morning": 0.0,
+          "damping_evening": 0.0
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "29313b609feaa716e33cf326131f9a12",
+        "version": 1,
+        "domain": "local_calendar",
+        "title": "Meyer's",
+        "data": {
+          "calendar_name": "Meyer's"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6b5ca997d843f77de7545beacef5b992",
+        "version": 1,
+        "domain": "local_ip",
+        "title": "local_ip",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "22cb8c4ba316b4d92b1ba15edbf02841",
+        "version": 1,
+        "domain": "locative",
+        "title": "Locative Webhook",
+        "data": {
+          "webhook_id": "ed2d2d92b3af7e6c5dc0433d9b665ab3975231123a67a2921dbb4a0bcb615bde",
+          "cloudhook": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3d31d32821ec7d8e1f90dc433baafbda",
+        "version": 1,
+        "domain": "nmap_tracker",
+        "title": "Nmap Tracker 172.16.33.128/25",
+        "data": {},
+        "options": {
+          "hosts": "172.16.33.128/25",
+          "home_interval": 0,
+          "exclude": "172.16.33.131",
+          "scan_options": "-F -T4 --min-rate 10 --host-timeout 5s"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "65cbfe4d7764335300af10f9d736ff0a",
+        "version": 1,
+        "domain": "moon",
+        "title": "Moon",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e781645e200f4cf18b8f04394624dfec",
+        "version": 1,
+        "domain": "speedtestdotnet",
+        "title": "SpeedTest",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a164ffd0131661b41831775138fbf9a0",
+        "version": 1,
+        "domain": "uptime",
+        "title": "Uptime",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9285c07e8e3afc12aeb70b01985dd23c",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "LM-X420",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2022.12.0-full (3026)",
+          "device_name": "LM-X420",
+          "manufacturer": "LGE",
+          "model": "LM-X420",
+          "os_name": "Android",
+          "os_version": "28",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "fQb8_4nhTyG9ICEQO0Wo73:APA91bEHGW-Bt8DF6rkMXx5vOHlRzKNPLRGFaK6s0a5zGgzkmrwR82gmwpRuSfWDA7m_K2EeCCMcqlErKc7yCIDwMZEL_6hpo2TzXRde1j9zESGzjfTofYSkOvtkpxyYbI7Wg5JBkyZs"
+          },
+          "device_id": "527b16071dd2f76d",
+          "cloudhook_url": "https://hooks.nabu.casa/gAAAAABkW2zm4okAysgdn7wqZ0t_HycRvMCo3MXneLLNIrGldI05mA5GdYYiSmakVPiRlvxkYsq3sJw3GQye6100L-A_pfbEtqKBKqthycX22G0ug1pGp9Fs0m3xKsbME1Nu5O5G0aANgFTxqbUy0hibpkkq7bkb5x44mOjLcanCANj-R-nHQVs=",
+          "webhook_id": "d73159449ec805b4bffe1abc266cb481cea2c189a554df705e14dffdd1ba05df",
+          "user_id": "faf468d07c1444d1aa8618375083a678"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-527b16071dd2f76d",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1cca4b97d01c9b98d55f90eaa9daba39",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "living room",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2022.12.0-full (3026)",
+          "device_name": "living room",
+          "manufacturer": "Umx",
+          "model": "U693CL",
+          "os_name": "Android",
+          "os_version": "28",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "fTy2wlFvToeM-ii7ckGl_y:APA91bE9tCwGXtDzSTbnSCRGTjlm2io9nbzI3Nt1IahTHpSJ5s0PrhL7R5EfMMJhIvybcQMdplIjlemEAC11KVH4IlY-TyVOaQHPxn5YLE015lZDoxuoe0gcgvh5u3zj5DFbQbsOvv47"
+          },
+          "device_id": "4870a5638a63a2f1",
+          "cloudhook_url": "https://hooks.nabu.casa/gAAAAABkW24NvbpcgXezTC-GgmLSN3wusdwJUy9FIrSSf9NULY6bKbF-bZ1KbFFmvogD9wN0UMM1seBYoXoud7vJeeuH2aK3xf-J93DRrcZW39knfa9nHMxogUrUzaDN32rY-Qlta8fBUO1Epcu8eezF6nslJYqI2FgjLn2ObGEVNHDJ5Pqo6y8=",
+          "webhook_id": "411f4e270ea722a4820b5dcccb92857a5b2c97f6425bfd5f6e8d18dcb6903ccf",
+          "user_id": "182afdc83016444ca18b41bbb54fb159"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-4870a5638a63a2f1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c62ff313cd3e05855c205e4d491bb848",
+        "version": 1,
+        "domain": "google_home",
+        "title": "Google Home",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "12bc2f6b7e824531728e6ce93d093c24",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Steve's S23 ",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.6.0-full (10170)",
+          "device_name": "Steve's S23 ",
+          "manufacturer": "samsung",
+          "model": "SM-S911U",
+          "os_name": "Android",
+          "os_version": "33",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "dOnh13XYSJOXJzQrDwPw0F:APA91bGvvn2KlpQnDXRU7_R3-7G2eoiZiCQ8FthYITDVD69BgUroHGaUFBhXsFLpVcKnHt0eNbzluhTdHdETPkhi0YfgMIuPXlZOq5A4LBwhos-t2qTMhBhAZ6E-7zwasnXSfMmTDV7h"
+          },
+          "device_id": "5d67e8122de16e01",
+          "cloudhook_url": "https://hooks.nabu.casa/gAAAAABkbNNYYYkZjr5wQEh9zINNS8tyeAPQwCAquwJBE72tfxGMj-8LwdIryZA9oOnVLvkYg0QrIyWkZKTWVN4qgXcamlujbm1ToMsLVenHV347QDP50Qw2dO4vDzMImOZhWPGjSAg11rnTxN4ZNh8xMgArZ-7L671yNq6R_Ga0HINQonVz4Pk=",
+          "webhook_id": "f1313900e4dee6fcfb0c2a1df50b4fb54e4d680f73668c2b542bca87d648a455",
+          "user_id": "1fe8a5aeec0a40ab9d643951459a52d8"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-5d67e8122de16e01",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "57099c940c6899e5cfc07aa70ebfa482",
+        "version": 2,
+        "domain": "openuv",
+        "title": "43.013244739925234, -87.93936878442766",
+        "data": {
+          "api_key": "openuv-4inttlbrewzjz-io",
+          "latitude": 43.013244739925234,
+          "longitude": -87.93936878442766,
+          "elevation": 0.0
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "43.013244739925234, -87.93936878442766",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "dacf62c8e152f0724cdfa66dc030554b",
+        "version": 2,
+        "domain": "nws_alerts",
+        "title": "NWS Alerts",
+        "data": {
+          "tracker": "device_tracker.steve_s_s23",
+          "name": "NWS Alerts",
+          "interval": 1,
+          "timeout": 120
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "71e0dcfa6309e3af02f7460573d6abf5",
+        "version": 2,
+        "domain": "nws_alerts",
+        "title": "NWS Alerts",
+        "data": {
+          "tracker": "device_tracker.laurie_s_s23",
+          "name": "NWS Alerts",
+          "interval": 1,
+          "timeout": 120
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1338db1b2d19b227502516ac7a59ed50",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "steve-s23",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.8.4-full (11088)",
+          "device_name": "steve-s23",
+          "manufacturer": "samsung",
+          "model": "SM-S911U",
+          "os_name": "Android",
+          "os_version": "33",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "e3LaaQDWQ2CxJSNusU_8o8:APA91bGZEdQmJVEU_pkfajahbV880BKHi8CnJMlWkAzycer-Ta5aD2hoAoms4XGbpGhaIBXtAlyFUB07de6sDrFrzEsAr5QKueETj4vC4AlZGCr1yPNmBW_QX301zW0WyM5OOQXKrhXC"
+          },
+          "device_id": "e5714e0955c11111",
+          "webhook_id": "8e90e6eed9701ca773b07f729b3da95682add0554a7095475b94dae728d1b8bb",
+          "user_id": "1fe8a5aeec0a40ab9d643951459a52d8"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-e5714e0955c11111",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f1d29acd069ac3cb7a4d42883e2fbe9e",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Steve-galaxy-A11",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "beta-10230-b7c6be45-full (10230)",
+          "device_name": "Steve-galaxy-A11",
+          "manufacturer": "samsung",
+          "model": "SM-A115U",
+          "os_name": "Android",
+          "os_version": "29",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "cC6CcGr_Tw6kESF_HX-Nrm:APA91bE6NLfrillr1DMqAAEu2K7yElB6DHc0QJXcPFNZ0PhE2LHm3Axn9vt9bIvjSbCR4SiV4Jid1ufZvE5QZFX5kN4TKWJQQ9WAp6bYFjbOlTRH0XHbfDLpXoqkN-WEhgKEnzEkmik6"
+          },
+          "device_id": "551a2a626a7b0298",
+          "webhook_id": "c38f8d7b60f25afb2eb99ec18f78311a8b2f8149b6ea88b513769988abf947e8",
+          "user_id": "1fe8a5aeec0a40ab9d643951459a52d8"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-551a2a626a7b0298",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "30ee63483c63b5902fe92746e6b3fce1",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "1_closet_office_speaker",
+        "data": {
+          "entity_id": "media_player.1_closet_office_speaker",
+          "manufacturer": "google",
+          "model": "Nest Mini (H2C)",
+          "unique_id": "pc_081ac625-9767-374b-ce50-a99628b76161",
+          "sensor_type": "virtual_power",
+          "name": "1_closet_office_speaker",
+          "_power_entity": "sensor.1_closet_office_speaker_power",
+          "_energy_entity": "sensor.1_closet_office_speaker_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "pc_081ac625-9767-374b-ce50-a99628b76161",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "256bac9c7e0188573dbf648f162f0eca",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "3_bathroom_speaker",
+        "data": {
+          "entity_id": "media_player.3_bathroom_speaker",
+          "manufacturer": "google",
+          "model": "Nest Mini (H2C)",
+          "unique_id": "pc_9376cf0d-6bee-c25c-e9be-11d966f95d10",
+          "sensor_type": "virtual_power",
+          "name": "3_bathroom_speaker",
+          "_power_entity": "sensor.3_bathroom_speaker_power",
+          "_energy_entity": "sensor.3_bathroom_speaker_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "pc_9376cf0d-6bee-c25c-e9be-11d966f95d10",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "858db195c73b5bb9fe184ffc8068c7eb",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "4_frankenstein",
+        "data": {
+          "entity_id": "media_player.4_frankenstein",
+          "manufacturer": "google",
+          "model": "Nest Mini (H2C)",
+          "unique_id": "pc_60c6a26d-5773-cb75-5a43-59c726efdaa6",
+          "sensor_type": "virtual_power",
+          "name": "4_frankenstein",
+          "_power_entity": "sensor.4_frankenstein_power",
+          "_energy_entity": "sensor.4_frankenstein_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "pc_60c6a26d-5773-cb75-5a43-59c726efdaa6",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a3b2ba7449dbaac2564213a23e193135",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "4_living_room_speaker",
+        "data": {
+          "entity_id": "media_player.4_living_room_speaker",
+          "manufacturer": "google",
+          "model": "Nest Mini (H2C)",
+          "unique_id": "pc_4cb66dce-89ec-2b4d-9ecd-3be8ebff94b2",
+          "sensor_type": "virtual_power",
+          "name": "4_living_room_speaker",
+          "_power_entity": "sensor.4_living_room_speaker_power",
+          "_energy_entity": "sensor.4_living_room_speaker_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "pc_4cb66dce-89ec-2b4d-9ecd-3be8ebff94b2",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "18aa2b3ed6ba6ec688fbcbd7f688ee8f",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "4_living_room_speaker_2",
+        "data": {
+          "entity_id": "media_player.4_living_room_speaker_2",
+          "manufacturer": "google",
+          "model": "Nest Mini (H2C)",
+          "unique_id": "pc_6b0e424d-8280-a4ff-df96-26ba785185b1",
+          "sensor_type": "virtual_power",
+          "name": "4_living_room_speaker_2",
+          "_power_entity": "sensor.4_living_room_speaker_2_power",
+          "_energy_entity": "sensor.4_living_room_speaker_2_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "pc_6b0e424d-8280-a4ff-df96-26ba785185b1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d4b9892da6b8714b0d363171a94dae09",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "workshop_speaker",
+        "data": {
+          "entity_id": "media_player.workshop_speaker",
+          "manufacturer": "google",
+          "model": "Nest Mini (H2C)",
+          "unique_id": "pc_1bfeace1-af30-5e9c-ca76-ea334c69b4e3",
+          "sensor_type": "virtual_power",
+          "name": "workshop_speaker",
+          "_power_entity": "sensor.workshop_speaker_power",
+          "_energy_entity": "sensor.workshop_speaker_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "pc_1bfeace1-af30-5e9c-ca76-ea334c69b4e3",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d6880b73242a79c481fab2ef0dd45182",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Lamp",
+        "data": {
+          "entity_id": "light.lamp",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebc0c75150db86cdaecn2vswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Lamp",
+          "_power_entity": "sensor.lamp_power",
+          "_energy_entity": "sensor.lamp_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebc0c75150db86cdaecn2vswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "bc12e17ef231d88cf7d20a7c2e6154d8",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Couch Lamp 1",
+        "data": {
+          "entity_id": "light.couch_lamp_1",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb759aac0f668ecd4eornkswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Couch Lamp 1",
+          "_power_entity": "sensor.couch_lamp_1_power",
+          "_energy_entity": "sensor.couch_lamp_1_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb759aac0f668ecd4eornkswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a98c87e22cfa9ba6bbd23876876fb3dc",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Couch Lamp 2",
+        "data": {
+          "entity_id": "light.couch_lamp_2",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb456b9d22fe099ab9y8uqswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Couch Lamp 2",
+          "_power_entity": "sensor.couch_lamp_2_power",
+          "_energy_entity": "sensor.couch_lamp_2_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb456b9d22fe099ab9y8uqswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6e4388f62871ac22ba35d326b00c30eb",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Computer light",
+        "data": {
+          "entity_id": "light.computer_light",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebd68ad97e2ea2e9efmw9vswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Computer light",
+          "_power_entity": "sensor.computer_light_power",
+          "_energy_entity": "sensor.computer_light_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebd68ad97e2ea2e9efmw9vswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f847dcf61e6451d3cd86b04b914a37a6",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Kitchen 1",
+        "data": {
+          "entity_id": "light.kitchen_1",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebb4f4070fed2daceahu0sswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Kitchen 1",
+          "_power_entity": "sensor.kitchen_1_power",
+          "_energy_entity": "sensor.kitchen_1_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebb4f4070fed2daceahu0sswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "01c50615e0db3edf98565e7d046f7b1c",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Kitchen 2",
+        "data": {
+          "entity_id": "light.kitchen_2",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eba01394702459ef57ghd5switch_led",
+          "sensor_type": "virtual_power",
+          "name": "Kitchen 2",
+          "_power_entity": "sensor.kitchen_2_power",
+          "_energy_entity": "sensor.kitchen_2_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eba01394702459ef57ghd5switch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b20b67c79f69c16821833c1890de4d46",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Kitchen Counter Main",
+        "data": {
+          "entity_id": "light.sink_light",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb68401cefa2369f72e71rswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Kitchen Counter Main",
+          "_power_entity": "sensor.kitchen_counter_main_power",
+          "_energy_entity": "sensor.kitchen_counter_main_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb68401cefa2369f72e71rswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1a34f5924d86359c35b7d93091107cdf",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Momma's light 2",
+        "data": {
+          "entity_id": "light.momma_s_light_2",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb6b66425467825fbdooowswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Momma's light 2",
+          "_power_entity": "sensor.momma_s_light_2_power",
+          "_energy_entity": "sensor.momma_s_light_2_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb6b66425467825fbdooowswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "efeca6ffae61bd58ed8d4ee25c28c5e8",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Mommas light ",
+        "data": {
+          "entity_id": "switch.mommas_light",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.0,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_7C78B26EE356-0001-switch",
+          "sensor_type": "virtual_power",
+          "name": "Mommas light ",
+          "_power_entity": "sensor.mommas_light_power",
+          "_energy_entity": "sensor.mommas_light_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_7C78B26EE356-0001-switch",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1c590e36716e8078c3b2443aa335f97f",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Kitchen Stove ",
+        "data": {
+          "entity_id": "light.kitchen_stove",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebe4a38a5658e30cb04laaswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Kitchen Stove ",
+          "_power_entity": "sensor.kitchen_stove_power",
+          "_energy_entity": "sensor.kitchen_stove_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebe4a38a5658e30cb04laaswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c70526806030daa7c14fa899c2fc7ca9",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Closet 1",
+        "data": {
+          "entity_id": "light.closet_1",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebad89a1c1a27f5043gn9jswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Closet 1",
+          "_power_entity": "sensor.closet_1_power",
+          "_energy_entity": "sensor.closet_1_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebad89a1c1a27f5043gn9jswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b95561dd3fc1b3558ebd657f693b4efc",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Closet 100",
+        "data": {
+          "entity_id": "light.closet_100",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb9c22a56319d8a953txw4switch_led",
+          "sensor_type": "virtual_power",
+          "name": "Closet 100",
+          "_power_entity": "sensor.closet_100_power",
+          "_energy_entity": "sensor.closet_100_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb9c22a56319d8a953txw4switch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b4a2dc93d444dee45b3a047871710e09",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Bathroom 1",
+        "data": {
+          "entity_id": "light.bathroom_1",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb1373e15a45ae842bger3switch_led",
+          "sensor_type": "virtual_power",
+          "name": "Bathroom 1",
+          "_power_entity": "sensor.bathroom_1_power",
+          "_energy_entity": "sensor.bathroom_1_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb1373e15a45ae842bger3switch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c15225d2e9bb7b65006da7cc80c6f566",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Rhyleigh 1",
+        "data": {
+          "entity_id": "light.rhyleigh_1",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb8609eac65071646dxsikswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Rhyleigh 1",
+          "_power_entity": "sensor.rhyleigh_1_power",
+          "_energy_entity": "sensor.rhyleigh_1_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb8609eac65071646dxsikswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2ac69e5d3cec4935c1ff4dd148f9d3fc",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Rhyleigh 2",
+        "data": {
+          "entity_id": "light.rhyleigh_2",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb047f7fd2aa9a7f1dgnxjswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Rhyleigh 2",
+          "_power_entity": "sensor.rhyleigh_2_power",
+          "_energy_entity": "sensor.rhyleigh_2_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb047f7fd2aa9a7f1dgnxjswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3b9d0c3d78d9bad0f48a4db1b02fd5e5",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Hallway Light",
+        "data": {
+          "entity_id": "light.hallway_light",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 9.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb83db30f2b163faf04upiswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Hallway Light",
+          "_power_entity": "sensor.hallway_light_power",
+          "_energy_entity": "sensor.hallway_light_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb83db30f2b163faf04upiswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "299f7cd2f71074fc80547b8b64e53a55",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Entryway Light",
+        "data": {
+          "entity_id": "light.entryway_light",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 9.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebbac0ccfea4757655awazswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Entryway Light",
+          "_power_entity": "sensor.entryway_light_power",
+          "_energy_entity": "sensor.entryway_light_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebbac0ccfea4757655awazswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d2846dd5d7863e95b1d3ada655c85e12",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "shop 2",
+        "data": {
+          "entity_id": "light.shop_2",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 9.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebbf077a9442a4b8bekhcfswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "shop 2",
+          "_power_entity": "sensor.shop_2_power",
+          "_energy_entity": "sensor.shop_2_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebbf077a9442a4b8bekhcfswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9814613ad6ef5a4a8bc77ccfe657e1d4",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Workshop 4",
+        "data": {
+          "entity_id": "light.workshop_4",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 9.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb673a7da25d29b060owczswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Workshop 4",
+          "_power_entity": "sensor.workshop_4_power",
+          "_energy_entity": "sensor.workshop_4_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb673a7da25d29b060owczswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7a3ae0dfa7ba8c15117ee62f56526fb2",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Workshop 60",
+        "data": {
+          "entity_id": "light.workshop_60",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 9.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebd91460712856e7bbcj9yswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Workshop 60",
+          "_power_entity": "sensor.workshop_60_power",
+          "_energy_entity": "sensor.workshop_60_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebd91460712856e7bbcj9yswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0f110dd2614945aca779e20f64101ec4",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Workshop Basin",
+        "data": {
+          "entity_id": "light.workshop_basin",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebbe35136bcecc6975y1buswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Workshop Basin",
+          "_power_entity": "sensor.workshop_basin_power",
+          "_energy_entity": "sensor.workshop_basin_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebbe35136bcecc6975y1buswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ca1fe15298bb0615b9fc3d0fb041b154",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Backdoor Floodlight",
+        "data": {
+          "entity_id": "light.backdoor_floodlight",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 8.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebb64b55ee7f309fffhjlrswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Backdoor Floodlight",
+          "_power_entity": "sensor.backdoor_floodlight_power",
+          "_energy_entity": "sensor.backdoor_floodlight_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebb64b55ee7f309fffhjlrswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "dd9d286190939ed4fc82b3fee1234313",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Back light",
+        "data": {
+          "entity_id": "light.back_light",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb51828571485d3778dqcoswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Back light",
+          "_power_entity": "sensor.back_light_power",
+          "_energy_entity": "sensor.back_light_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb51828571485d3778dqcoswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "606cdfa407120456bd8257b581090d22",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Front Light",
+        "data": {
+          "entity_id": "light.front_light",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.2,
+          "fixed": {
+            "power": 15.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb9b0eb67dbdf4e3acicdoswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Front Light",
+          "_power_entity": "sensor.front_light_power",
+          "_energy_entity": "sensor.front_light_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb9b0eb67dbdf4e3acicdoswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0d1188f9a0e07e8b383159704be5aa3e",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Bed Ceiling Light",
+        "data": {
+          "entity_id": "light.bed_ceiling_light",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 0.8,
+          "fixed": {
+            "power": 44.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.ebb39cc661a351c6a23hquswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Bed Ceiling Light",
+          "_power_entity": "sensor.bed_ceiling_light_power",
+          "_energy_entity": "sensor.bed_ceiling_light_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.ebb39cc661a351c6a23hquswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "77500cf435ac636eabacbbae6c60d079",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "Couch Ceiling Light",
+        "data": {
+          "entity_id": "light.couch_ceiling_light",
+          "mode": "fixed",
+          "create_energy_sensor": true,
+          "create_utility_meters": true,
+          "standby_power": 1.2,
+          "fixed": {
+            "power": 66.0
+          },
+          "energy_integration_method": "left",
+          "unique_id": "pc_tuya.eb9231e5bc00c8c27fqpvoswitch_led",
+          "sensor_type": "virtual_power",
+          "name": "Couch Ceiling Light",
+          "_power_entity": "sensor.couch_ceiling_light_power",
+          "_energy_entity": "sensor.couch_ceiling_light_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "pc_tuya.eb9231e5bc00c8c27fqpvoswitch_led",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e57fea5e08c525d6721ecde1b1ef6a26",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "nestmini9253",
+        "data": {
+          "entity_id": "media_player.nestmini9253",
+          "manufacturer": "google",
+          "model": "Nest Mini (H2C)",
+          "unique_id": "pc_fc3404e1-bb4d-8740-afac-8d505f342f54",
+          "sensor_type": "virtual_power",
+          "name": "nestmini9253",
+          "_power_entity": "sensor.nestmini9253_power",
+          "_energy_entity": "sensor.nestmini9253_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "pc_fc3404e1-bb4d-8740-afac-8d505f342f54",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c8f686f0a6d7abc6f66bc3c9837f0d81",
+        "version": 1,
+        "domain": "generic",
+        "title": "backyard",
+        "data": {},
+        "options": {
+          "use_wallclock_as_timestamps": false,
+          "stream_source": "rtsp://camrtsp:Letmeinn0w@172.16.33.130/live",
+          "rtsp_transport": "tcp",
+          "authentication": "basic",
+          "framerate": 1.0,
+          "verify_ssl": false,
+          "limit_refetch_to_url_change": false,
+          "content_type": "image/jpeg"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "430c726c10fabc544e2a222f1ba22722",
+        "version": 1,
+        "domain": "generic",
+        "title": "walkway",
+        "data": {},
+        "options": {
+          "use_wallclock_as_timestamps": false,
+          "stream_source": "rtsp://camrtsp:Letmeinn0w@172.16.33.250/live",
+          "rtsp_transport": "tcp",
+          "authentication": "basic",
+          "framerate": 1.0,
+          "verify_ssl": false,
+          "limit_refetch_to_url_change": false,
+          "content_type": "image/jpeg"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "edd953039c0eb64a41bb304adbfccf97",
+        "version": 1,
+        "domain": "generic",
+        "title": "Kitchen Cam",
+        "data": {},
+        "options": {
+          "use_wallclock_as_timestamps": false,
+          "stream_source": "rtsp://camrtsp:Letmeinn0w@172.16.33.249/live",
+          "rtsp_transport": "udp",
+          "authentication": "basic",
+          "framerate": 2.0,
+          "verify_ssl": false,
+          "limit_refetch_to_url_change": false,
+          "content_type": "image/jpeg"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b29e07213c9269c92df88a6bd055e58f",
+        "version": 1,
+        "domain": "generic",
+        "title": "frontdoor",
+        "data": {},
+        "options": {
+          "use_wallclock_as_timestamps": false,
+          "stream_source": "rtsp://camrtsp:Letmeinn0w@172.16.33.245/live",
+          "rtsp_transport": "tcp",
+          "authentication": "basic",
+          "framerate": 1.0,
+          "verify_ssl": false,
+          "limit_refetch_to_url_change": false,
+          "content_type": "image/jpeg"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a80992f05188d29387a602af26cb6aac",
+        "version": 1,
+        "domain": "generic",
+        "title": "frontyard",
+        "data": {},
+        "options": {
+          "use_wallclock_as_timestamps": false,
+          "stream_source": "rtsp://camrtsp:Letmeinn0w@172.16.33.241/live",
+          "rtsp_transport": "tcp",
+          "authentication": "basic",
+          "framerate": 1.0,
+          "verify_ssl": false,
+          "limit_refetch_to_url_change": false,
+          "content_type": "image/jpeg"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2c595b91bd11192c68b02d1f2d70d937",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "P63L",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.8.2-full (10992)",
+          "device_name": "P63L",
+          "manufacturer": "PCD",
+          "model": "P63L",
+          "os_name": "Android",
+          "os_version": "31",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "epAZ4xUUQXCPFxrYK9m2a0:APA91bE4XV4lhMrHu0ma2xtK4QWu2QLFc2KzyaK3SYADRpoGHhUCY4rkkr0Ge-x0ZobGc1mx-Jj57mlmZ27k8c6jtTsGoblwT1yrHcm2cg8Hg_DgniD6vNx8Ufd8V6Ni8Q6vXTaRY-IG"
+          },
+          "device_id": "eaefdd89c73197ec",
+          "cloudhook_url": "https://hooks.nabu.casa/gAAAAABk3BA8Txf74mKkeCZUD8T7cDu1w_vGf3DAyY1trfSr_d8AVkDgPQHNl3p8S2gXa7Dmzbb58h4jv96WItSQFvvJthquAl0Fobi6qgjyJM-MdNvfop43R5iuLybWXRGRDtpeJtv7TdBPzpt6RpZAybiIV4TY5lJBxAby0CQs1LNdKhYFm2A=",
+          "webhook_id": "03a532068329fe5e17a3f49023664ad18dfd24dcced7199dee318837c09cb3f1",
+          "user_id": "1fe8a5aeec0a40ab9d643951459a52d8"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-eaefdd89c73197ec",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "dfa38c69fa29ea5c0ede3f8766f673e5",
+        "version": 1,
+        "domain": "dlna_dms",
+        "title": "gerbera",
+        "data": {
+          "url": "http://172.16.33.129:49152/description.xml",
+          "device_id": "uuid:d745ed5e-1b9a-42a8-8a68-737d720fa44c::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "gerbera"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:d745ed5e-1b9a-42a8-8a68-737d720fa44c::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "16274943e2b5d285e9852e69b91edd9c",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "NestMini0301",
+        "data": {
+          "entity_id": "media_player.nestmini0301",
+          "manufacturer": "google",
+          "model": "Nest Mini (H2C)",
+          "unique_id": "pc_31ac1200-5701-dea9-4dc2-cb86a7069179",
+          "sensor_type": "virtual_power",
+          "name": "NestMini0301",
+          "_power_entity": "sensor.nestmini0301_power",
+          "_energy_entity": "sensor.nestmini0301_energy"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "pc_31ac1200-5701-dea9-4dc2-cb86a7069179",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1ff75a3ee860f6ebb1b9da71d44908a0",
+        "version": 1,
+        "domain": "dlna_dms",
+        "title": "Jellyfin - Bookworm",
+        "data": {
+          "url": "http://172.16.33.129:8096/dlna/92670f11-b2fe-419b-9f75-242c10aadfcc/description.xml",
+          "device_id": "uuid:92670f11-b2fe-419b-9f75-242c10aadfcc::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "jellyfin_bookworm"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:92670f11-b2fe-419b-9f75-242c10aadfcc::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "94a6e1c04b747c8d8729411800a3b27f",
+        "version": 1,
+        "domain": "jellyfin",
+        "title": "jellyfin",
+        "data": {
+          "url": "172.16.33.129",
+          "username": "ha",
+          "password": "ha",
+          "verify_ssl": false,
+          "client_id": "0a3740fe-4f0c-4279-9855-cd7de5f792e9",
+          "generate_upcoming": true,
+          "generate_yamc": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "jellyfin",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0fc98fdd822848d25a9652531685a9da",
+        "version": 1,
+        "domain": "version",
+        "title": "Current Version",
+        "data": {
+          "name": "",
+          "channel": "stable",
+          "image": "default",
+          "board": "OVA",
+          "version_source": "Local installation",
+          "source": "local"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "412c363a52130d68f648bec566133102",
+        "version": 1,
+        "domain": "version",
+        "title": "Home Assistant Versions",
+        "data": {
+          "name": "",
+          "channel": "stable",
+          "image": "default",
+          "board": "OVA",
+          "version_source": "Home Assistant Versions",
+          "source": "supervisor"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "8607e5cd1182a8c9e9e73c223f4968ea",
+        "version": 1,
+        "domain": "version",
+        "title": "Home Assistant Versions Dev",
+        "data": {
+          "name": "",
+          "channel": "dev",
+          "image": "default",
+          "board": "OVA",
+          "version_source": "Home Assistant Versions",
+          "source": "supervisor"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1b887e0fe451fa5007c3e26298e82c14",
+        "version": 1,
+        "domain": "version",
+        "title": "Home Assistant Versions Beta",
+        "data": {
+          "name": "",
+          "channel": "beta",
+          "image": "default",
+          "board": "OVA",
+          "version_source": "Home Assistant Versions",
+          "source": "supervisor"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "607281f3b9ef06b67e62deb968330197",
+        "version": 1,
+        "domain": "version",
+        "title": "Home Assistant Website",
+        "data": {
+          "name": "",
+          "channel": "stable",
+          "image": "default",
+          "board": "OVA",
+          "version_source": "Home Assistant Website",
+          "source": "haio"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "375caaf72a7dcb5d0cf2b18828d093b2",
+        "version": 1,
+        "domain": "version",
+        "title": "Docker Hub",
+        "data": {
+          "name": "",
+          "channel": "stable",
+          "image": "default",
+          "board": "OVA",
+          "version_source": "Docker Hub",
+          "source": "container"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "84faf8200fa09b7888ff7893086cec0e",
+        "version": 1,
+        "domain": "version",
+        "title": "Docker Hub Dev",
+        "data": {
+          "name": "",
+          "channel": "dev",
+          "image": "default",
+          "board": "OVA",
+          "version_source": "Docker Hub",
+          "source": "container"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5e22ba09c6517d6c79ee63fb393e9964",
+        "version": 1,
+        "domain": "version",
+        "title": "Docker Hub Beta",
+        "data": {
+          "name": "",
+          "channel": "beta",
+          "image": "default",
+          "board": "OVA",
+          "version_source": "Docker Hub",
+          "source": "container"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a040655f3635bb25752695b201fc61f1",
+        "version": 1,
+        "domain": "version",
+        "title": "Python Package Index (PyPI)",
+        "data": {
+          "name": "",
+          "channel": "stable",
+          "image": "default",
+          "board": "OVA",
+          "version_source": "Python Package Index (PyPI)",
+          "source": "pypi",
+          "beta": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "95bb01ac726771fb0489f57f0d3df079",
+        "version": 1,
+        "domain": "ha_registry",
+        "title": "Home Assistant Registry",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "ha_registry",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "30523105aa21ebfa65401a9caa511fe0",
+        "version": 1,
+        "domain": "zodiac",
+        "title": "Zodiac",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d02ebe101b9308cf127822decb31b7ec",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "Mommas Light",
+        "data": {},
+        "options": {
+          "entity_id": "switch.mommas_light",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "35942979ebd87f8493b46ffeefb1db12",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "Laurie's  privacy light ",
+        "data": {},
+        "options": {
+          "entity_id": "switch.cam_monitor_power",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3e9baac1b11b69444b333f8b7668d5b8",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "Sound Lights ",
+        "data": {},
+        "options": {
+          "entity_id": "switch.sound_lights",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9d0130fe802019224725076ca5c8c916",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "Blue Lights ",
+        "data": {},
+        "options": {
+          "entity_id": "switch.blue_lights",
+          "target_domain": "light"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "289855c0646720592af0ff9864a4ea07",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "Box Fan",
+        "data": {},
+        "options": {
+          "entity_id": "switch.bedroom_heater",
+          "target_domain": "fan"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "018563234b27391a8b7e3866c2433021",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "ceiling fan ",
+        "data": {},
+        "options": {
+          "entity_id": "switch.ceiling_fan",
+          "target_domain": "fan"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "52c76af2fc7ebcc6fb74631165181ecd",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "Air Conditioner",
+        "data": {},
+        "options": {
+          "entity_id": "switch.air_conditioner",
+          "target_domain": "fan"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f377b6782d047c0e40095997d207370b",
+        "version": 1,
+        "domain": "switch_as_x",
+        "title": "Bathroom Fan",
+        "data": {},
+        "options": {
+          "entity_id": "switch.bathroom_fan",
+          "target_domain": "fan"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d81170f2ff7c8b492ffcc4b5cc5de480",
+        "version": 1,
+        "domain": "ui_lovelace_minimalist",
+        "title": "UI Lovelace Minimalist",
+        "data": {
+          "token": "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"
+        },
+        "options": {
+          "language": "English (GB)",
+          "sidepanel_enabled": true,
+          "sidepanel_title": "UI Lovelace Minimalist",
+          "sidepanel_icon": "mdi:flower",
+          "adaptive_ui_enabled": true,
+          "adaptive_ui_title": "UI Lovelace Minimalist",
+          "adaptive_ui_icon": "mdi:flower",
+          "theme": "HA selected theme",
+          "theme_path": "themes/",
+          "include_other_cards": true,
+          "community_cards_enabled": true,
+          "community_cards": [
+            "custom_template_shogun160_battery_info",
+            "custom_chip_vlape_garage",
+            "custom_chip_update",
+            "custom_chip_tesla_temperature",
+            "custom_chip_myenedis",
+            "custom_chip_group_counter",
+            "custom_card_yagrasdemonde_lights_count",
+            "custom_card_wsly_pollen",
+            "custom_card_water_heater",
+            "custom_card_tpx01_aircondition",
+            "custom_card_vncntdev_device_tracer",
+            "custom_card_speedtest_shogun160",
+            "custom_card_sisimomo_printer",
+            "custom_card_schumijo_flower",
+            "custom_card_schumijo_car",
+            "custom_card_saxel_fan",
+            "custom_card_scenes",
+            "custom_card_ristou_person",
+            "custom_card_qubino",
+            "custom_card_playstation",
+            "custom_card_person_info",
+            "custom_card_person_chip",
+            "custom_card_paddy_welcome",
+            "custom_card_paddy_waste_collection",
+            "custom_card_paddy_dwd_pollen",
+            "custom_card_nik_tablet",
+            "custom_card_nik_nas",
+            "custom_card_nik_door",
+            "custom_card_nik_clock",
+            "custom_card_neekster_update",
+            "custom_card_nas",
+            "custom_card_mpse_wifisignal",
+            "custom_card_mpse_thermostat",
+            "custom_card_mpse_printer",
+            "custom_card_mpse_gauge",
+            "custom_card_more_power_outlet",
+            "custom_card_media_player_sonos",
+            "custom_card_light_colorpick",
+            "custom_card_irmajavi_weather",
+            "custom_card_irmajavi_speedtest",
+            "custom_card_irmajavi_entities",
+            "custom_card_input_number",
+            "custom_card_input_datetime",
+            "custom_card_imswel_person",
+            "custom_card_imswel_medias",
+            "custom_card_httpedo13_thermostat",
+            "custom_card_httpedo13_sun",
+            "custom_card_homeassistant_updates",
+            "custom_card_haven_washer",
+            "custom_card_heat_pump",
+            "custom_card_esh_welcome",
+            "custom_card_esh_room",
+            "custom_card_eraycetinay_lock",
+            "custom_card_eraycetinay_elapsed_time",
+            "custom_card_drealine_roomview",
+            "custom_card_device_tracker",
+            "custom_card_damix48_power_details",
+            "custom_card_chromecast",
+            "custom_card_camera",
+            "custom_card_bar_card",
+            "custom_card_apexcharts",
+            "custom_card_alarm_time",
+            "custom_card_afvalophaling"
+          ]
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "f52f840d8e3100ec9438f75782a62e3d",
+        "version": 1,
+        "domain": "thread",
+        "title": "Thread",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "dbcaca2fb47802aeac36ae7be366bb84",
+        "version": 1,
+        "domain": "cloudflare",
+        "title": "suckit.site",
+        "data": {
+          "api_token": "1U2vXwWWTiADN-gu-92G09XJRedMMuIHCbyGDcdn",
+          "zone": "suckit.site",
+          "records": [
+            "www.suckit.site",
+            "suckit.site",
+            "remote.suckit.site",
+            "oracle.suckit.site",
+            "ns1.suckit.site",
+            "bookworm.suckit.site"
+          ]
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "suckit.site",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c72e4a92ea0e1781262eaaafd7d86a9c",
+        "version": 5,
+        "domain": "tplink_deco",
+        "title": "172.16.33.243",
+        "data": {
+          "username": "admin",
+          "password": "Letmein!1!",
+          "host": "172.16.33.243",
+          "interval_seconds": 30,
+          "consider_home": 180,
+          "timeout_error_retries": 1,
+          "timeout_seconds": 30,
+          "verify_ssl": true,
+          "deco_postfix": "Deco",
+          "client_prefix": "",
+          "client_postfix": "",
+          "deco_prefix": ""
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "aa8b568581659d519fce43ffddaca9b3",
+        "version": 5,
+        "domain": "tplink_deco",
+        "title": "172.16.33.244",
+        "data": {
+          "username": "admin",
+          "password": "Letmein!1!",
+          "host": "172.16.33.244",
+          "interval_seconds": 30,
+          "consider_home": 180,
+          "timeout_error_retries": 1,
+          "timeout_seconds": 30,
+          "verify_ssl": false,
+          "deco_postfix": "Deco",
+          "client_prefix": "",
+          "client_postfix": "",
+          "deco_prefix": ""
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "a6464681f162917b271280637c9162b2",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "steve_S23",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.9.2-full (11226)",
+          "device_name": "steve_S23",
+          "manufacturer": "samsung",
+          "model": "SM-S911U",
+          "os_name": "Android",
+          "os_version": "33",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "c9gidDrNRCijvgdGr1ha0T:APA91bGIdhSt9WUDRFyXQqZ3SNsE0dm_ToqzqbRwIpxvHGOTLcKow-q4bKE0e961VVyqbGDiaDyUT9iO16WG4kxk8RjP0A-G2BfdU2Vg1pCs_AFi5hGP9Rmx5h_teiMXUjMyMoPYRavB"
+          },
+          "device_id": "2d2ab7906f146e44",
+          "cloudhook_url": "https://hooks.nabu.casa/gAAAAABk_wwPJouIuyD3fRFC7hKvO7JAd5_CNrO3osK4UjhIxG4vslJWsdYmrr-YT_XpfpBVQat0a5qiuw95asOcQPwXGZSQB30Kzrh4HlNOQMSy8U4NoTRU8IQtQ1Dz98xKkW5dP8M6lBwT_JWtNklZLY0-Sl4rf4h3gE354fqFZha-5t_SIR8=",
+          "webhook_id": "75fc2aa881b56ce3dee9bb39b6d7e8b77fc3a6c52c12e811fc34e20f40e3d0c0",
+          "user_id": "1fe8a5aeec0a40ab9d643951459a52d8"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-2d2ab7906f146e44",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0d86c3715f0d0ba401e43cbee1857a2b",
+        "version": 1,
+        "domain": "generic",
+        "title": "Backdoor",
+        "data": {},
+        "options": {
+          "use_wallclock_as_timestamps": false,
+          "stream_source": "rtsp://camrtsp:Letmeinn0w@172.16.33.240/live",
+          "rtsp_transport": "tcp",
+          "authentication": "basic",
+          "framerate": 1.0,
+          "verify_ssl": false,
+          "limit_refetch_to_url_change": false,
+          "content_type": "image/jpeg"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "fbc0113842a4d5cddcfecf5031ee1bd8",
+        "version": 5,
+        "domain": "tplink_deco",
+        "title": "172.16.33.176",
+        "data": {
+          "username": "admin",
+          "password": "Letmein!1!",
+          "host": "172.16.33.176",
+          "interval_seconds": 30,
+          "consider_home": 180,
+          "timeout_error_retries": 1,
+          "timeout_seconds": 30,
+          "verify_ssl": false,
+          "deco_postfix": "Deco",
+          "client_prefix": "",
+          "client_postfix": "",
+          "deco_prefix": ""
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "249c386c4b3835030f12ae4e20802d66",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Ox-p010-2",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.10.2-full (11484)",
+          "device_name": "Ox-p010-2",
+          "manufacturer": "OX TAB",
+          "model": "Ox-p010-2",
+          "os_name": "Android",
+          "os_version": "31",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "fn46Yoq1TwqEVkyPtUzts-:APA91bFGkOjKgvaTksoC2VgIwvZQ1v4YC3ZjKvza_hVk2VVFW-9xqoaCTigu0ZzU0fwAtlHIEbDugOFxzEqoTkscodd7WQHgi30xa5bX_HCUH_IuvkvcmEkFKWcT_AVlQ2W5-jn9HXIv"
+          },
+          "device_id": "2358dcb10d148599",
+          "cloudhook_url": "https://hooks.nabu.casa/gAAAAABlJDYUPn5aJgP5W9OIiVtg1uwwkjftZ8XEi_yoWHdoN6xvDqBplvyiJ-Yb-ku9lEHp7Oo_UtEUMXkFYX1foARMUH2IaOu2sggSbmitCQmol9Q83FL5Vz_kQJ8q0yHySy2B2cLd0BujL5m9jKD-RblhH9yNSSA0Elw2VEmjnvZz_oHJE18=",
+          "webhook_id": "e6b510f38cd1f3a2ddef00b7aa482b0465601ff95ad0dbf0ddbb5986fa4417d8",
+          "user_id": "1fe8a5aeec0a40ab9d643951459a52d8"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-2358dcb10d148599",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "dd9e27a69f431e5376f2b1a818dbe5d6",
+        "version": 1,
+        "domain": "dlna_dms",
+        "title": "Bookworm: minidlna",
+        "data": {
+          "url": "http://172.16.33.129:8200/rootDesc.xml",
+          "device_id": "uuid:4d696e69-444c-164e-9d41-180373162ce8::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "bookworm_minidlna"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:4d696e69-444c-164e-9d41-180373162ce8::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "44849ab300e5961d7b4a5ec754c73632",
+        "version": 2,
+        "domain": "powercalc",
+        "title": "4 Living Room speaker",
+        "data": {
+          "entity_id": "media_player.nestmini1006",
+          "manufacturer": "google",
+          "model": "Nest Mini (H2C)",
+          "unique_id": "pc_9ef6f84d-f8f8-2a7f-447c-49f682554232",
+          "sensor_type": "virtual_power",
+          "name": "4 Living Room speaker",
+          "_power_entity": "sensor.4_living_room_speaker_power_2",
+          "_energy_entity": "sensor.4_living_room_speaker_energy_2"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "pc_9ef6f84d-f8f8-2a7f-447c-49f682554232",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7d11d38bcc09de74dd8fd5ccbb4b034a",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "moto g(7) supra",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2023.10.2-full (11484)",
+          "device_name": "moto g(7) supra",
+          "manufacturer": "motorola",
+          "model": "moto g(7) supra",
+          "os_name": "Android",
+          "os_version": "29",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "cef4P-WDR5Ks6W_09eB2N1:APA91bEOFrzqIc1tHKR3Le6ESpup22g9hNspUIyZYznN5ehd4aPKqsr_kmyCtG5gKEy39RcUqZUG1eJDHtBWkM0hd-TKBDM_btBAaukRwe88t3g86p-cw7v3Yv2GK26aywVrPCXdteHj"
+          },
+          "device_id": "c102d3e02e7202c0",
+          "webhook_id": "dc814acd01bce14825507e4b5b1c69a104aaad1c67140943de13800b1f0b3af4",
+          "user_id": "1fe8a5aeec0a40ab9d643951459a52d8"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-c102d3e02e7202c0",
+        "disabled_by": null
+      }
+    ]
+  }
+}

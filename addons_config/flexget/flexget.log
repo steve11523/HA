@@ -1,0 +1,7 @@
+2023-08-18 23:27:08 INFO     web_server_daemon                 Running web server at IP 0.0.0.0:5050
+2023-08-18 23:27:09 INFO     web_server_daemon                 Initiating API
+2023-08-18 23:27:09 INFO     web_server_daemon                 Registering WebUI v2
+2023-08-18 23:27:09 INFO     web_server                    Web server started at http://172.30.33.5:5050
+2023-08-18 23:27:09 INFO     web_server                    API available at http://172.30.33.5:5050/api
+2023-08-18 23:27:09 INFO     web_server                    WebUI (v2) available at http://172.30.33.5:5050/
+2023-08-19 04:55:16 INFO     manager                       Got SIGTERM. Shutting down.

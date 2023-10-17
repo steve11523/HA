@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "schedule",
+  "data": {
+    "items": [
+      {
+        "id": "test",
+        "sunday": [],
+        "friday": [
+          {
+            "from": "03:00:00",
+            "to": "03:30:00"
+          }
+        ],
+        "name": "test",
+        "monday": [],
+        "thursday": [],
+        "tuesday": [],
+        "saturday": [],
+        "wednesday": []
+      }
+    ]
+  }
+}

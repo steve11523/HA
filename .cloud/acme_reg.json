@@ -1,0 +1,15 @@
+{
+    "body": {
+        "contact": [
+            "mailto:stevemeyerha11523@gmail.com"
+        ],
+        "key": {
+            "e": "AQAB",
+            "kty": "RSA",
+            "n": "o3v_iAquAWZeviQMKEB1Z7MslKFo3KgGkXlCXQfwhfQRKMffyootfPGYCYzKoA6quw4zwq3_FYqf100ThB3TCA8vwdEuB_GVkO5ybigQHDct7CusfNS32Xl9qVvYgBl4zamEMzSp9s2dpdHmL6eIxwd-j-HcT45gY4irYpxEnGDJzbhE2oBZT0Cz6Lxn7JZj88gfkZVc7kiVt4V32fA3dNPxhQr1E_OOGQUeSIxr1QHDW9plM0vdFyCUhH2nnRl_YgJz5E7ub9_xQztmuUkTrLxF-ngqm8s8M7DfD3uAKI42pFARSIUeH4MBvku3jTQ5zuHl7VXi8GUjhNllfWRcXw"
+        },
+        "status": "valid"
+    },
+    "terms_of_service": "https://letsencrypt.org/documents/LE-SA-v1.3-September-21-2022.pdf",
+    "uri": "https://acme-v02.api.letsencrypt.org/acme/acct/1311205956"
+}

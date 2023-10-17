@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "input_datetime",
+  "data": {
+    "items": [
+      {
+        "id": "date",
+        "name": "date",
+        "has_date": true,
+        "has_time": false
+      },
+      {
+        "id": "time",
+        "has_time": true,
+        "has_date": false,
+        "name": "time"
+      },
+      {
+        "id": "datandtime",
+        "name": "datandtime",
+        "has_date": true,
+        "has_time": false
+      }
+    ]
+  }
+}

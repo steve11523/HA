@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "steve",
+        "password": "JDJiJDEyJC9TVlVjMDZ2eVFzZG5yeXg0cFN4Vi4yOTRpZGxka29IdmFIZmhjd0pGTFg5QW1UaDltVU9t"
+      },
+      {
+        "username": "laurie",
+        "password": "JDJiJDEyJGM1cG0waHB4bDFPU0doa1ZJQkFMZnUuT2doWUdBWnMvUmlmYUtWNEZuTXZLYmRidXBBNWZx"
+      },
+      {
+        "username": "rhyleigh",
+        "password": "JDJiJDEyJG5YWUtGQnlidlE1WDhxNm9rdlc3bXVwcVV5eDI2alJVL2U1ZkdGNm8vUXZHZHd2a0tZMC4y"
+      },
+      {
+        "username": "lr",
+        "password": "JDJiJDEyJG9MR3VoeS5hU3cuNnNIZi43R1YxdHVNNW9sQUFRWEZJRmVNNTJPai9XaEkuMDFLajBKMEg2"
+      },
+      {
+        "username": "kitchen",
+        "password": "JDJiJDEyJENRSXQwanh2WmxhQ2tHemNObHdtTHVCYnN0MDBycElFWEVWczIzZG5mYm1PZFhVd2J0aU5h"
+      },
+      {
+        "username": "mqtt",
+        "password": "JDJiJDEyJG1yclVLaS5rZ1RGdzlLd29JZkxqZHV6d3ZjbVE4VXY5RXhuTGxidDFRL01pTExpMWVDdzcy"
+      }
+    ]
+  }
+}

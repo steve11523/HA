@@ -1,0 +1,21 @@
+{
+  "version": "6",
+  "minor_version": 1,
+  "key": "hacs.hacs",
+  "data": {
+    "archived_repositories": [
+      "gerardag/person-entity-card",
+      "cgarwood/homeassistant-fullykiosk",
+      "peternijssen/home-assistant-jumbo",
+      "walthowd/ha-automower",
+      "thebino/rki_covid"
+    ],
+    "renamed_repositories": {
+      "lendy007/homeassistant-skodaconnect": "skodaconnect/homeassistant-skodaconnect",
+      "mtarjoianu/ha_lektrico": "Lektrico/ha_lektrico",
+      "JoshuaMulliken/ha-wyzeapi": "SecKatie/ha-wyzeapi",
+      "loopj/hass-vantage": "loopj/home-assistant-vantage"
+    },
+    "ignored_repositories": []
+  }
+}

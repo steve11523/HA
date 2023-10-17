@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "id": "dashboard_mushroom",
+        "show_in_sidebar": true,
+        "icon": "mdi:mushroom",
+        "title": "Mushroom",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-mushroom"
+      },
+      {
+        "id": "dashboard_development",
+        "show_in_sidebar": true,
+        "icon": "mdi:developer-board",
+        "title": "Development",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-development"
+      },
+      {
+        "id": "dashboard_testing",
+        "show_in_sidebar": true,
+        "title": "testing",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "dashboard-testing"
+      },
+      {
+        "id": "development_2",
+        "show_in_sidebar": true,
+        "icon": "mdi:brightness-7",
+        "title": "Development 2",
+        "require_admin": true,
+        "mode": "storage",
+        "url_path": "development-2"
+      }
+    ]
+  }
+}
